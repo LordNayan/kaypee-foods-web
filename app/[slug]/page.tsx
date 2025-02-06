@@ -9,8 +9,19 @@ const appRoutingConst = [
   { slug: 'gift-boxes' },
 ];
 
-export default function Page({ params }: any) {
-  const isValidSlug = appRoutingConst.some((route) => route?.slug === params?.slug);
+interface PageParams {
+  slug: string;
+}
+
+export default async function Page({
+  params,
+}: {
+  params: Promise<PageParams>;
+}) {
+  const resolvedParams = await params;
+  const isValidSlug = appRoutingConst.some(
+    (route) => route?.slug === resolvedParams?.slug
+  );
 
   if (!isValidSlug) {
     notFound();
@@ -18,7 +29,9 @@ export default function Page({ params }: any) {
 
   return (
     <div className="p-6 text-center">
-      <h1 className="text-3xl font-bold">Welcome to {params.slug.replace('-', ' ')}</h1>
+      <h1 className="text-3xl font-bold">
+        Welcome to {resolvedParams.slug.replace("-", " ")}
+      </h1>
     </div>
   );
 }
