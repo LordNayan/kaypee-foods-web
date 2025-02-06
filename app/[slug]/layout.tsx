@@ -10,8 +10,15 @@ const appRoutingConst = [
   { slug: 'gift-boxes', title: 'Gift Boxes', description: 'Perfect gift boxes for any occasion.' },
 ];
 
-export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
-  const currentSlug = appRoutingConst.find((route) => route.slug === params.slug);
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
+  const resolvedParams = await params;
+  const currentSlug = appRoutingConst.find(
+    (route) => route.slug === resolvedParams.slug
+  );
 
   if (currentSlug) {
     return {
@@ -21,8 +28,8 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   }
 
   return {
-    title: 'Not Found',
-    description: 'The page you are looking for does not exist.',
+    title: "Not Found",
+    description: "The page you are looking for does not exist.",
   };
 }
 

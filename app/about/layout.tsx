@@ -11,8 +11,10 @@ export const metadata: Metadata = {
       }
 }
 
-export default function AboutLayout({children}: any) {
-    return (
-        <div>{children}</div>
-    )
+export default function AboutLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  return <div>{children}</div>;
 }

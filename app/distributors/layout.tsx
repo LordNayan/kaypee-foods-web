@@ -11,8 +11,10 @@ export const metadata: Metadata = {
       }
 }
 
-export default function DistributorsLayout({children}: any) {
-    return (
-        <div>{children}</div>
-    )
+export default function DistributorsLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  return <div>{children}</div>;
 }
