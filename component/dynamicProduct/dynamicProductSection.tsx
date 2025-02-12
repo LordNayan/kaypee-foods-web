@@ -1,45 +1,57 @@
-import React from "react";
-import { Col, Container, Row } from "react-bootstrap";
-import {
-  ProductsSection,
-  StyledFigure,
-  StyledFigureCaption,
-  StyledFigureCaptionSpace,
-  StyledFigureCaptionSpan,
-  StyledFigureHeding,
-  WorkPara,
-  WorkTitle,
-  WorkTitleHeading,
-} from "./styled";
-import ProductTable from "./productTable";
+"use client";
 
-const DynamicProductSection = ({ product }: any) => {
+import React, { useEffect, useState } from "react";
+import {
+  ProductHeader,
+  ProductInner,
+  ProductInnerContent,
+  ProductMain,
+  ProductSubTitle,
+  ProductTitle,
+} from "./styled";
+import { Container } from "react-bootstrap";
+import Footer from "../common/footer/footer";
+import { dynamicProductDetails } from "@/constant/dynamicProductsDetails";
+import DynamicProductSection from "./dynamicProductSection";
+
+interface Product {
+  slug: string;
+  itemName: string;
+  itemSubTitle: string;
+  heroImg?: string;
+}
+
+const DynamicProduct = ({ getSlug }: any) => {
+  const [product, setProduct] = useState<Product | null>(null);
+
+  useEffect(() => {
+    const foundProduct = dynamicProductDetails.find(
+      (product) => product.slug === getSlug
+    ) || null;
+    setProduct(foundProduct);
+  }, [getSlug]);
+
   return (
-    <ProductsSection>
-      <Container>
-        <WorkTitle>
-          <WorkTitleHeading>{product?.itemName}</WorkTitleHeading>
-          <WorkPara>{product?.itemSubTitle}</WorkPara>
-        </WorkTitle>
-      </Container>
-      <Row>
-        {product?.productItemsList &&
-          product?.productItemsList?.map((product: any, ind: number) => (
-            <Col key={ind} md={4}>
-              <StyledFigure>
-                <img src={product?.src} alt="products" />
-                <StyledFigureCaption>
-                  <StyledFigureCaptionSpan />
-                  <StyledFigureCaptionSpace>&nbsp;</StyledFigureCaptionSpace>
-                  <StyledFigureHeding>{product?.title}</StyledFigureHeding>
-                </StyledFigureCaption>
-              </StyledFigure>
-              <ProductTable tableContent={product?.itemSpecification} />
-            </Col>
-          ))}
-      </Row>
-    </ProductsSection>
+    <div>
+      <ProductHeader
+        backgroundImage={product?.heroImg || "/images/products/bg-img/int-hero-products.jpg"}
+      >
+        <ProductInnerContent>
+          <ProductInner>
+            <Container>
+              <ProductTitle>{product?.itemName}</ProductTitle>
+              <ProductSubTitle>{product?.itemSubTitle}</ProductSubTitle>
+            </Container>
+          </ProductInner>
+        </ProductInnerContent>
+      </ProductHeader>
+
+      <ProductMain>
+        <DynamicProductSection product={product} />
+        <Footer />
+      </ProductMain>
+    </div>
   );
 };
 
-export default DynamicProductSection;
+export default DynamicProduct;

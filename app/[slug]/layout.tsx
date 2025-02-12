@@ -2,8 +2,15 @@ import { appRoutingConst } from '@/constant/appRouting';
 import { Metadata } from 'next';
 import React from 'react';
 
-export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
-  const currentSlug = appRoutingConst.find((route) => route.slug === params.slug);
+interface Route {
+  slug: string;
+  title: string;
+  description: string;
+}
+
+
+export async function generateMetadata({ params }: any): Promise<Metadata> {
+  const currentSlug = appRoutingConst.find((route: Route) => route.slug === params.slug);
 
   if (currentSlug) {
     return {

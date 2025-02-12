@@ -14,19 +14,32 @@ import Footer from "../common/footer/footer";
 import { dynamicProductDetails } from "@/constant/dynamicProductsDetails";
 import DynamicProductSection from "./dynamicProductSection";
 
-const DynamicProduct = ({ getSlug }: any) => {
-  const [product, setProduct] = useState<any>(null);
+interface Product {
+  slug: string;
+  itemName: string;
+  itemSubTitle: string;
+  heroImg?: string;
+}
+
+interface DynamicProductProps {
+  getSlug: string;
+}
+
+const DynamicProduct = ({ getSlug }: DynamicProductProps) => {
+  const [product, setProduct] = useState<Product | null>(null);
 
   useEffect(() => {
     const foundProduct = dynamicProductDetails.find(
       (product) => product.slug === getSlug
-    );
+    ) || null;
     setProduct(foundProduct);
   }, [getSlug]);
 
   return (
     <div>
-       <ProductHeader backgroundImage={product?.heroImg || "/images/products/bg-img/int-hero-products.jpg"}>
+      <ProductHeader
+        backgroundImage={product?.heroImg || "/images/products/bg-img/int-hero-products.jpg"}
+      >
         <ProductInnerContent>
           <ProductInner>
             <Container>

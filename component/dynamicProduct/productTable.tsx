@@ -1,7 +1,17 @@
 import React from "react";
 import { Table, TableWrapper } from "./styled";
+///
+interface TableItem {
+  size: string;
+  price: string;
+  pcs: number;
+}
 
-const ProductTable = ({ tableContent }: any) => {
+interface ProductTableProps {
+  tableContent?: TableItem[];
+}
+
+const ProductTable: React.FC<ProductTableProps> = ({ tableContent = [] }) => {
   return (
     <TableWrapper>
       <Table>
@@ -11,11 +21,11 @@ const ProductTable = ({ tableContent }: any) => {
             <td>Price</td>
             <td>Pcs</td>
           </tr>
-          {tableContent &&  tableContent?.map((item: any) => (
-            <tr>
-              <td>{item?.size}</td>
-              <td>{item?.price}</td>
-              <td>{item?.pcs}</td>
+          {tableContent.map((item, index) => (
+            <tr key={index}>
+              <td>{item.size}</td>
+              <td>{item.price}</td>
+              <td>{item.pcs}</td>
             </tr>
           ))}
         </tbody>
