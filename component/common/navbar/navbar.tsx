@@ -18,8 +18,8 @@ const StyledNavbar = styled(Navbar)`
     }
     .ms-auto {
       @media screen and (max-width: 767px) {
-        position: absolute;
-        top: 14px;
+       position: absolute;
+       top: 14px;
       }
     }
   }
@@ -47,19 +47,13 @@ const StyledNavLink = styled(Link)`
   padding-left: 0.5rem;
   font-family: "Poppins", sans-serif;
   font-weight: 800;
-  @media screen and (max-width: 767px) {
-    color: #000000;
-    background-color: #fff;
-    padding: 0.5rem 1rem;
+    @media screen and (max-width: 767px) {
+        color: #000000;
+        background-color: #fff;
+        padding: .5rem 1rem;
+    }
   }
 `;
-
-interface NavigationItem {
-  id: number;
-  link: string;
-  menu: string;
-  targetBlank?: boolean;
-}
 
 const CustomNavbar = () => {
   return (
@@ -79,13 +73,13 @@ const CustomNavbar = () => {
         <Navbar.Toggle aria-controls="main-nav" />
         <Navbar.Collapse id="main-nav">
           <Nav className="ms-auto">
-            {navigation?.map((item: NavigationItem) => (
+            {navigation?.map((item: any) => (
               <StyledNavLink
-                key={item.id}
-                href={item.link}
-                target={item.targetBlank ? "_blank" : undefined}
+                key={item?.id}
+                href={item?.link}
+                target={item?.targetBlank && "_blank"}
               >
-                {item.menu}
+                {item?.menu}
               </StyledNavLink>
             ))}
           </Nav>
