@@ -69,7 +69,7 @@ export const getCommonAssets = {
             {
                 id: 5,
                 imgSrc: productsImages?.product5,
-                imgLink: "/bars",
+                imgLink: "/cocoa-bar",
                 imgAlt: "Bars"
             },
             {
