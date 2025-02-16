@@ -1,3 +1,4 @@
+import CustomNavbar from '@/component/common/navbar/navbar';
 import DynamicProduct from '@/component/dynamicProduct/dynamicProduct';
 import { appRoutingConst } from '@/constant/appRouting';
 import { notFound } from 'next/navigation';
@@ -10,5 +11,10 @@ export default function Page({ params }: any) {
     notFound();
   }
 
-  return <DynamicProduct getSlug={getSlug} /> ;
+  return (
+    <div>
+      <CustomNavbar />
+      <DynamicProduct getSlug={getSlug} /> ;
+    </div>
+  )
 }

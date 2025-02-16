@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google"; // Import only Geist and Geist_Mono
 import { Poppins } from "next/font/google"; // Import Poppins without variable
+import "./globals.scss";
+import 'bootstrap/dist/css/bootstrap.min.css';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/parallax';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import "./globals.css";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",

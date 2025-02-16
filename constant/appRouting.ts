@@ -29,7 +29,7 @@ export const navigation = [
   {
     id: 4,
     menu: "Catalogue",
-    link: "/images/doc/Chocozay-Catalog.pdf",
+    link: "/images/doc/kaypee-food-catalog.pdf",
     targetBlank: true,
   },
   {
