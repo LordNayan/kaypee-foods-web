@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Row } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 import Link from "next/link";
 import { getCommonAssets } from "@/constant/constant";
 import {
@@ -17,7 +17,7 @@ import {
 const ProductSection = () => {
   return (
     <ProductsSection>
-      <div className="container">
+      <Container>
         <WorkTitle>
           <WorkTitleHeading>Products</WorkTitleHeading>
           <WorkPara>
@@ -25,7 +25,7 @@ const ProductSection = () => {
             utmost quality and hygiene.
           </WorkPara>
         </WorkTitle>
-      </div>
+      </Container>
       <Row className="works-grid">
         {getCommonAssets &&
           getCommonAssets?.common?.products?.map((product) => (

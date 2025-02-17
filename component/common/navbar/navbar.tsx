@@ -8,10 +8,11 @@ import { navigation } from "@/constant/appRouting";
 
 const StyledNavbar = styled(Navbar)`
   padding: 30px 40px;
-  position: sticky;
+  width: 100%;
+  position: absolute;
+  left: 0;
   top: 0;
-  z-index: 999;
-
+  z-index: 9;
   #main-nav {
     @media screen and (max-width: 767px) {
       position: relative;
@@ -41,8 +42,9 @@ const Logo = styled.div`
 `;
 
 const StyledNavLink = styled(Link)`
-  color: #000;
+  color: #fff;
   font-size: 18px;
+  text-decoration: none;
   padding-right: 26px;
   padding-left: 0.5rem;
   font-family: "Poppins", sans-serif;

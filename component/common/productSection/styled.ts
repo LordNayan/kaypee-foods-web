@@ -8,6 +8,8 @@ export const ProductsSection = styled.section`
     padding-bottom: 20px;
     position: relative;
     z-index: 2;
+    margin-top: 100vh;
+    background: #fff;
     @media screen and (max-width: 767px) {
         padding: 75px 10px;
     }

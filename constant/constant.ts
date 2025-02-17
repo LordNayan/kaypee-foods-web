@@ -13,6 +13,13 @@ export const productsImages = {
     product6: "/images/common/products/gifting-range.jpg",
 }
 
+export const heroSectionBgImages = {
+    aboutUs: "/images/common/bg-img/int-hero-about-us.jpg",
+    products: "/images/common/bg-img/int-hero-products.jpg",
+    distributors: "/images/common/bg-img/int-hero-products.jpg",
+    contactUs: "/images/common/bg-img/int-hero-contact-us.jpg",
+}
+
 export const socialMedialLinks = {
     facebook: "https://www.facebook.com/Chocozaymrn",
     instagram: "https://www.instagram.com/chocozayin/",
@@ -79,5 +86,24 @@ export const getCommonAssets = {
                 imgAlt: "Gifting Range"
             }
         ]
+    }
+}
+
+export const customHeaderSectionDetails = {
+    "aboutUs": {
+        title: "About Us",
+        heroImg: heroSectionBgImages?.aboutUs
+    },
+    "products": {
+        title: "Products",
+        heroImg: heroSectionBgImages?.products
+    },
+    "distributors": {
+        title: "Distributors",
+        heroImg: heroSectionBgImages?.distributors
+    },
+    "contactUs": {
+        title: "Contact Us",
+        heroImg: heroSectionBgImages?.contactUs
     }
 }
