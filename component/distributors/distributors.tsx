@@ -132,28 +132,26 @@ const Distributors = () => {
                     </Col>
                   </Row>
                   <Form.Group>
-                    <StyledLabel>Your Message *</StyledLabel>
+                  <StyledLabel>Your Message *</StyledLabel>
                     <StyledText
                       style={{ marginBottom: "20px" }}
-                      as="textarea"
+                      type="text"
                       name="message"
                       value={formik.values.message}
                       onChange={formik.handleChange}
                       onBlur={formik.handleBlur}
-                      isInvalid={
-                        formik.touched.message && !!formik.errors.message
-                      }
+                      isInvalid={formik.touched.message && !!formik.errors.message}
                     />
                     <Form.Control.Feedback type="invalid">
                       {formik.errors.message}
                     </Form.Control.Feedback>
                   </Form.Group>
-                  <Form.Group>
+                  {/* <Form.Group>
                     <ReCAPTCHA
                       sitekey="your-site-key"
                       onChange={(value: any) => setCaptchaValue(value)}
                     />
-                  </Form.Group>
+                  </Form.Group> */}
                   <Submit type="submit">SUBMIT</Submit>
                 </Form>
               </Col>

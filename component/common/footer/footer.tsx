@@ -28,15 +28,15 @@ const Footer = () => {
           >
             <FooterTitle>OFFICE ADDRESS</FooterTitle>
             <FooterBody>
-              <FooterBodyTitle>MR Nutriments LLP</FooterBodyTitle>
+              <FooterBodyTitle>KAYPEE FOOD PRODUCTS</FooterBodyTitle>
               <br />
-              Flat No. 305, Alishan Flat,
+              B22/3, Pinto Park,
               <br />
-              Shishuvihar Circle,
+              Industrial Area,
               <br />
-              Bhavnagar - 364001
+              Maharajpura, Gwalior,
               <br />
-              Gujarat, India
+              Madhya Pradesh 474004
             </FooterBody>
           </ContentBox>
           <ContentBox
@@ -46,15 +46,18 @@ const Footer = () => {
           >
             <FooterTitle>FACTORY ADDRESS</FooterTitle>
             <FooterBody>
-              <FooterBodyTitle>MR Nutriments LLP</FooterBodyTitle>
+              <FooterBodyTitle>KAYPEE FOOD PRODUCTS</FooterBodyTitle>
               <br />
-              Survey No. 184, Block No. 144/1/3,
+              B22/3, Pinto Park,
               <br />
-              Plot No. 4/B, At. Malpar, Mamsa Area,
+              Industrial Area,
               <br />
-              Ta. Ghogha, Dist. Bhavnagar,
+              Maharajpura, Gwalior,
               <br />
-              Gujarat, India
+              Madhya Pradesh 474004
+
+
+          
             </FooterBody>
           </ContentBox>
           <ContentBox
@@ -64,19 +67,24 @@ const Footer = () => {
           >
             <FooterTitle>GET IN TOUCH</FooterTitle>
             <FooterBody>
-              <FooterBodyAnchor href="mailto:mrnutriments@gmail.com">
-                mrnutriments@gmail.com
+              <FooterBodyAnchor href="mailto:kaypeefood@gmail.com">
+              kaypeefood@gmail.com
               </FooterBodyAnchor>
             </FooterBody>
             <FooterBody>
-              <FooterBodyAnchor href="tel:919833467323">
-                +91 9833467323
+              <FooterBodyAnchor href="tel:917879747859">
+                +91 78797 47859
+              </FooterBodyAnchor>
+            </FooterBody>
+            <FooterBody>
+              <FooterBodyAnchor href="tel:917999570646">
+                +91 79995 70646
               </FooterBodyAnchor>
             </FooterBody>
           </ContentBox>
         </FooterContainer>
         <SubFooter>
-          <FooterEndTitle>All rights reserved 2025 © Chocozay</FooterEndTitle>
+          <FooterEndTitle></FooterEndTitle>
           <ul>
             {getCommonAssets &&
               getCommonAssets?.common?.socialMedia?.map((item) => (

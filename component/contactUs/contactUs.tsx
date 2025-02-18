@@ -44,12 +44,24 @@ const ContactUs = () => {
       message: Yup.string().required("Message is required"),
     }),
     onSubmit: (values) => {
-      if (!captchaValue) {
-        setErrorMessage("Please complete the reCAPTCHA");
-        return;
-      }
-      console.log("Form Submitted:", values);
-      setSuccessMessage("Your message was sent successfully!");
+      // if (!captchaValue) {
+      //   setErrorMessage("Please complete the reCAPTCHA");
+      //   return;
+      // }
+
+      const phoneNumber = '+917999570646'; // Replace with your WhatsApp number (in international format without +)
+      const message = encodeURIComponent(
+        `Name: ${values.name}\nEmail: ${values.email}\nPhone: ${values.phone}\nMessage: ${values.message}`
+      );
+      
+      // Construct the WhatsApp URL with the pre-filled message
+      const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
+      
+      // Redirect the user to WhatsApp
+      window.location.href = whatsappUrl;
+
+      // Clear success/error messages
+      setSuccessMessage("Redirecting to WhatsApp...");
       setErrorMessage("");
       formik.resetForm();
       setCaptchaValue(null);
@@ -111,9 +123,7 @@ const ContactUs = () => {
                           value={formik.values.email}
                           onChange={formik.handleChange}
                           onBlur={formik.handleBlur}
-                          isInvalid={
-                            formik.touched.email && !!formik.errors.email
-                          }
+                          isInvalid={formik.touched.email && !!formik.errors.email}
                         />
                         <Form.Control.Feedback type="invalid">
                           {formik.errors.email}
@@ -129,9 +139,7 @@ const ContactUs = () => {
                           value={formik.values.phone}
                           onChange={formik.handleChange}
                           onBlur={formik.handleBlur}
-                          isInvalid={
-                            formik.touched.phone && !!formik.errors.phone
-                          }
+                          isInvalid={formik.touched.phone && !!formik.errors.phone}
                         />
                         <Form.Control.Feedback type="invalid">
                           {formik.errors.phone}
@@ -143,25 +151,23 @@ const ContactUs = () => {
                     <StyledLabel>Your Message *</StyledLabel>
                     <StyledText
                       style={{ marginBottom: "20px" }}
-                      as="textarea"
+                      type="text"
                       name="message"
                       value={formik.values.message}
                       onChange={formik.handleChange}
                       onBlur={formik.handleBlur}
-                      isInvalid={
-                        formik.touched.message && !!formik.errors.message
-                      }
+                      isInvalid={formik.touched.message && !!formik.errors.message}
                     />
                     <Form.Control.Feedback type="invalid">
                       {formik.errors.message}
                     </Form.Control.Feedback>
                   </Form.Group>
-                  <Form.Group>
+                  {/* <Form.Group>
                     <ReCAPTCHA
                       sitekey="your-site-key"
                       onChange={(value: any) => setCaptchaValue(value)}
                     />
-                  </Form.Group>
+                  </Form.Group> */}
                   <Submit type="submit">SUBMIT</Submit>
                 </Form>
               </Col>
@@ -187,11 +193,15 @@ const ContactUs = () => {
                   title="Office Address"
                   content={
                     <>
-                      <b>MR Nutriments LLP</b> <br />
-                      Flat No. 305, Alishan Flat, <br />
-                      Shishuvihar Circle, <br />
-                      Bhavnagar - 364001 <br />
-                      Gujarat, India
+                      <b>KAYPEE FOOD PRODUCTS</b> 
+                      <br />
+              B22/3, Pinto Park,
+              <br />
+              Industrial Area,
+              <br />
+              Maharajpura, Gwalior,
+              <br />
+              Madhya Pradesh 474004
                     </>
                   }
                 />
@@ -199,11 +209,15 @@ const ContactUs = () => {
                   title="Factory Address"
                   content={
                     <>
-                      <b>MR Nutriments LLP</b> <br />
-                      Survey No. 184, Block No. 144/1/3, <br />
-                      Plot No. 4/B, At. Malpar, Mamsa Area, <br />
-                      Ta. Ghogha, Dist. Bhavnagar, <br />
-                      Gujarat, India
+                      <b>KAYPEE FOOD PRODUCTS</b> 
+                      <br />
+              B22/3, Pinto Park,
+              <br />
+              Industrial Area,
+              <br />
+              Maharajpura, Gwalior,
+              <br />
+              Madhya Pradesh 474004
                     </>
                   }
                 />
@@ -211,10 +225,10 @@ const ContactUs = () => {
                   title="LET'S TALK"
                   content={
                     <>
-                      <a href="tel:919833467323">+91 9833467323</a> <br />
+                      <a href="tel:919833467323">+917879747859</a> <br />
                       <h6 style={{ marginTop: "30px" }}>REACH US</h6>
-                      <a href="mailto:mrnutriments@gmail.com">
-                        mrnutriments@gmail.com
+                      <a href="mailto:kaypeefood@gmail.com">
+                      kaypeefood@gmail.com
                       </a>
                     </>
                   }

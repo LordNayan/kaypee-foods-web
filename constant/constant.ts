@@ -1,7 +1,7 @@
 export const socialMedialIcons = {
     facebook: "/images/common/footer/facebook_logo.png",
     instagram: "/images/common/footer/instagram_logo.png",
-    twitter: "/images/common/footer/twitter_logo.png",
+    twitter: "/images/common/footer/Youtube_logo.png",
 }
 
 export const productsImages = {
@@ -14,16 +14,16 @@ export const productsImages = {
 }
 
 export const heroSectionBgImages = {
-    aboutUs: "/images/common/bg-img/int-hero-about-us.jpg",
-    products: "/images/common/bg-img/int-hero-products.jpg",
-    distributors: "/images/common/bg-img/int-hero-products.jpg",
+    aboutUs: "./images/home/hero-slider/slide9.png",
+    products: "./images/home/hero-slider/slide10.png",
+    distributors: "./images/home/hero-slider/slide11.png",
     contactUs: "/images/common/bg-img/int-hero-contact-us.jpg",
 }
 
 export const socialMedialLinks = {
-    facebook: "https://www.facebook.com/Chocozaymrn",
-    instagram: "https://www.instagram.com/chocozayin/",
-    twitter: "https://twitter.com/ChocozayIN",
+    facebook: "https://www.facebook.com/profile.php?id=61550347615260",
+    instagram: "https://www.instagram.com/kaypee_food?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
+    twitter: "https://www.youtube.com/@KAYPEEGROUP",
 }
 
 export const getCommonAssets = {
