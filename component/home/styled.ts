@@ -24,6 +24,10 @@ export const StyledHeader = styled.header`
     left: 40px;
     bottom: 0;
     z-index: 2;
+    @media screen and (max-width: 767px) {
+      height: 30px;
+      left: 25px;
+    }
   }
 `;
 
@@ -32,6 +36,9 @@ export const SlideTitleStyled = styled.h5`
   color: #fff;
   font-family: "Poppins", sans-serif;
   margin-bottom: 0;
+  @media screen and (max-width: 767px) {
+    font-size: 17px;
+  }
 `;
 
 export const SlideSubTitleStyled = styled.h2`
@@ -39,6 +46,9 @@ export const SlideSubTitleStyled = styled.h2`
   color: #fff;
   font-weight: 800;
   margin-bottom: 40px;
+  @media screen and (max-width: 767px) {
+     font-size: 50px;
+  }
 `;
 
 export const SwipeButtonStyle = styled.span`
@@ -64,7 +74,7 @@ export const HomeMain = styled.main`
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  position: relative;
+  // position: relative;
 `;
 
 // Styled Components
@@ -72,6 +82,7 @@ export const TextContentSection = styled.section`
   padding: 60px 0;
   background: #fff;
   width: 100%;
+  position: relative;
 `;
 
 export const Figure = styled.figure`

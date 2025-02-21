@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 export const FooterWrapper = styled.div`
   width: 100%;
   background: #313434;
+  position: relative;
 `;
 
 export const FooterContainer = styled.footer`

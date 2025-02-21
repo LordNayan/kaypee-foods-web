@@ -32,7 +32,7 @@ const TextContentBlock = () => {
                   maintain the level of hygiene required to make sure that our
                   products reach customers in the best condition.
                 </Paragraph>
-                <ReadMore href="/">READ MORE</ReadMore>
+                <ReadMore href="/about-us">READ MORE</ReadMore>
               </Col>
             </Row>
           </Col>

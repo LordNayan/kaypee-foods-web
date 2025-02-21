@@ -49,14 +49,14 @@ const ContactUs = () => {
       //   return;
       // }
 
-      const phoneNumber = '+917999570646'; // Replace with your WhatsApp number (in international format without +)
+      const phoneNumber = "+917999570646"; // Replace with your WhatsApp number (in international format without +)
       const message = encodeURIComponent(
         `Name: ${values.name}\nEmail: ${values.email}\nPhone: ${values.phone}\nMessage: ${values.message}`
       );
-      
+
       // Construct the WhatsApp URL with the pre-filled message
       const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
-      
+
       // Redirect the user to WhatsApp
       window.location.href = whatsappUrl;
 
@@ -123,7 +123,9 @@ const ContactUs = () => {
                           value={formik.values.email}
                           onChange={formik.handleChange}
                           onBlur={formik.handleBlur}
-                          isInvalid={formik.touched.email && !!formik.errors.email}
+                          isInvalid={
+                            formik.touched.email && !!formik.errors.email
+                          }
                         />
                         <Form.Control.Feedback type="invalid">
                           {formik.errors.email}
@@ -139,7 +141,9 @@ const ContactUs = () => {
                           value={formik.values.phone}
                           onChange={formik.handleChange}
                           onBlur={formik.handleBlur}
-                          isInvalid={formik.touched.phone && !!formik.errors.phone}
+                          isInvalid={
+                            formik.touched.phone && !!formik.errors.phone
+                          }
                         />
                         <Form.Control.Feedback type="invalid">
                           {formik.errors.phone}
@@ -156,7 +160,9 @@ const ContactUs = () => {
                       value={formik.values.message}
                       onChange={formik.handleChange}
                       onBlur={formik.handleBlur}
-                      isInvalid={formik.touched.message && !!formik.errors.message}
+                      isInvalid={
+                        formik.touched.message && !!formik.errors.message
+                      }
                     />
                     <Form.Control.Feedback type="invalid">
                       {formik.errors.message}
@@ -178,7 +184,9 @@ const ContactUs = () => {
               style={{ visibility: "visible", animationName: "fadeIn" }}
             >
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3708.044291125175!2d72.14368571425666!3d21.662134371231172!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395f59017287e541%3A0xa513f8ac7769157d!2sMR+Nutriments+LLP!5e0!3m2!1sen!2sin!4v1557486722929!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3578.3336700555737!2d78.2181328!3d26.250832!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3976c77aaaaaaaab%3A0x23661c94af873bfa!2sKAYPEE%20FOOD%20PRODUCTS!5e0!3m2!1sen!2sin!4v1739894841969!5m2!1sen!2sin"
+                width="600"
+                height="450"
                 loading="lazy"
               ></iframe>
             </MapContainer>
@@ -193,15 +201,15 @@ const ContactUs = () => {
                   title="Office Address"
                   content={
                     <>
-                      <b>KAYPEE FOOD PRODUCTS</b> 
+                      <b>KAYPEE FOOD PRODUCTS</b>
                       <br />
-              B22/3, Pinto Park,
-              <br />
-              Industrial Area,
-              <br />
-              Maharajpura, Gwalior,
-              <br />
-              Madhya Pradesh 474004
+                      B22/3, Pinto Park,
+                      <br />
+                      Industrial Area,
+                      <br />
+                      Maharajpura, Gwalior,
+                      <br />
+                      Madhya Pradesh 474004
                     </>
                   }
                 />
@@ -209,15 +217,15 @@ const ContactUs = () => {
                   title="Factory Address"
                   content={
                     <>
-                      <b>KAYPEE FOOD PRODUCTS</b> 
+                      <b>KAYPEE FOOD PRODUCTS</b>
                       <br />
-              B22/3, Pinto Park,
-              <br />
-              Industrial Area,
-              <br />
-              Maharajpura, Gwalior,
-              <br />
-              Madhya Pradesh 474004
+                      B22/3, Pinto Park,
+                      <br />
+                      Industrial Area,
+                      <br />
+                      Maharajpura, Gwalior,
+                      <br />
+                      Madhya Pradesh 474004
                     </>
                   }
                 />
@@ -228,7 +236,7 @@ const ContactUs = () => {
                       <a href="tel:919833467323">+917879747859</a> <br />
                       <h6 style={{ marginTop: "30px" }}>REACH US</h6>
                       <a href="mailto:kaypeefood@gmail.com">
-                      kaypeefood@gmail.com
+                        kaypeefood@gmail.com
                       </a>
                     </>
                   }

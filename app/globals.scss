@@ -1,3 +1,5 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -74,18 +76,21 @@ a {
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
-  padding: 0 150px
+  padding: 0 150px;
+  @media screen and (max-width: 767px) {
+    padding: 0px;
+  }
 }
 
-h5 {
-  font-size: 1.8rem;
-  margin-bottom: 10px;
-}
+// h5 {
+//   font-size: 1.8rem;
+//   margin-bottom: 10px;
+// }
 
-h2 {
-  font-size: 3rem;
-  margin-bottom: 20px;
-}
+// h2 {
+//   font-size: 3rem;
+//   margin-bottom: 20px;
+// }
 
 .btn-ghost {
   display: inline-block;
@@ -101,30 +106,6 @@ h2 {
   }
 }
 
-// .swiper-button-next {
-//   width: auto;
-//   height: auto;
-//   background: none;
-//   right: 33px;
-//   font-weight: 800;
-//   color: #fff;
-//   transform: rotate(90deg);
-//   margin-top: 20px;
-//   overflow: hidden;
-// }
-// .swiper-button-prev {
-//   width: auto;
-//   height: auto;
-//   background: none;
-//   left: auto;
-//   right: 33px;
-//   font-weight: 800;
-//   color: #fff;
-//   transform: rotate(90deg);
-//   margin-top: -40px;
-//   overflow: hidden;
-// }
-
 /* Hide default Swiper navigation buttons */
 .swiper-button-prev,
 .swiper-button-next {
@@ -132,30 +113,43 @@ h2 {
 }
 
 .swiper-button-prev {
-  left: 10px; /* Adjust position */
+  // left: 10px; /* Adjust position */
+  margin-left: 1%;
+  bottom: 40%;
+  left: 96.5% !important;
   background: transparent;
   font-weight: 800;
   color: #fff !important;
   transform: rotate(90deg);
   transition: transform 0.25s ease-in-out, opacity 0.25s ease-in-out;
-  &:hover {
-    transform: translateX(-10px);
+  @media screen and (max-width: 767px) {
+    display: none !important;
   }
+  // &:hover {
+  //   transform: translateX(-10px);
+  // }
   &::after {
     display: none;
   }
 }
 
 .swiper-button-next {
-  right: 10px; /* Adjust position */
+  // right: 10px; /* Adjust position */
+  margin-right: -1%;
+  margin-top: -40px;
+  top: 62% !important;
+  right: 2% !important;
   background: transparent;
   font-weight: 800;
   color: #fff !important;
   transform: rotate(90deg);
   transition: transform 0.25s ease-in-out, opacity 0.25s ease-in-out;
-  &:hover {
-    transform: translateX(-10px);
+  @media screen and (max-width: 767px) {
+    display: none !important;
   }
+  // &:hover {
+  //   transform: translateX(-10px);
+  // }
   &::after {
     display: none;
   }
@@ -167,6 +161,9 @@ h2 {
   bottom: 20px !important;
   text-align: right !important;
   color: #fff !important;
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
   .swiper-pagination-current {
     color: #fff;
     font-size: 50px;
@@ -179,8 +176,3 @@ h2 {
     opacity: 0.7;
   }
 }
-
-
-
-
-

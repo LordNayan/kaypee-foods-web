@@ -9,6 +9,7 @@ import { Container } from "react-bootstrap";
 import Footer from "../common/footer/footer";
 import { HomeMain, SlideSubTitleStyled, SlideTitleStyled, StyledHeader, SwipeButtonStyle } from "./styled";
 import TextContentBlock from "./textContentBlock";
+import CustomNavbar from "../common/navbar/navbar";
 
 const Home = () => {
   const slides = [
@@ -64,6 +65,7 @@ const Home = () => {
 
   return (
     <div>
+      <CustomNavbar />
       <StyledHeader>
         <Swiper
           modules={[Navigation, Pagination, Parallax, Autoplay]}

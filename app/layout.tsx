@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google"; // Import only Geist and Geist_Mono
 import { Poppins } from "next/font/google"; // Import Poppins without variable
 import "./globals.scss";
-import 'bootstrap/dist/css/bootstrap.min.css';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
@@ -24,27 +23,9 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Home Page SEO",
-  description: "Home Page Description SEO",
-  keywords:
-    "Home SEO Agenhttps://www.pexels.com/photo/woman-stands-by-serene-glacier-lake-in-winter-30180208/cy, Home SEO friendly, NextJS, ReactJS",
-  openGraph: {
-    title: "Home Page SEO Share",
-    description: "Home Page Description SEO share",
-    images: [
-      "https://www.pexels.com/photo/woman-stands-by-serene-glacier-lake-in-winter-30180208/",
-    ],
-    url: "https://www.facebook.com/",
-  },
-  twitter: {
-    title: "Twitter: Home Page SEO",
-    description: "Twitter: Home Page Description SEO",
-    images: [
-      "https://www.pexels.com/photo/woman-stands-by-serene-glacier-lake-in-winter-30180208/",
-    ],
-    card: "summary_large_image",
-    creator: "Prakhar Jain",
-  },
+  title: "Kay Pee",
+  description: "Kay Pee",
+  icons: "./images/common/navbar/logo.png",
 };
 
 export default function RootLayout({

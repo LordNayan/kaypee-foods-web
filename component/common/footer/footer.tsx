@@ -1,6 +1,7 @@
 "use client";
 
 import { getCommonAssets } from "@/constant/constant";
+import { Container } from "react-bootstrap";
 import {
   ContentBox,
   FooterBody,
@@ -19,7 +20,7 @@ import Image from "next/image";
 const Footer = () => {
   return (
     <FooterWrapper>
-      <div className="container">
+      <Container>
         <FooterContainer>
           <ContentBox
             initial={{ opacity: 0 }}
@@ -55,9 +56,6 @@ const Footer = () => {
               Maharajpura, Gwalior,
               <br />
               Madhya Pradesh 474004
-
-
-          
             </FooterBody>
           </ContentBox>
           <ContentBox
@@ -101,7 +99,7 @@ const Footer = () => {
               ))}
           </ul>
         </SubFooter>
-      </div>
+      </Container>
     </FooterWrapper>
   );
 };
