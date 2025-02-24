@@ -25,7 +25,7 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   title: "Kay Pee",
   description: "Kay Pee",
-  icons: "./images/common/navbar/logo.png",
+  icons: "./images/common/navbar/kaypee_logo.png",
 };
 
 export default function RootLayout({

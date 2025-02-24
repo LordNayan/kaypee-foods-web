@@ -64,7 +64,14 @@ export const ProductSubTitle = styled.h6`
   font-family: "Poppins", sans-serif;
 `;
 
-
+export const BrandLogo = styled.div`
+  position: absolute;
+  bottom: 60px;
+  img {
+      height: 160px;
+      width: 180px;
+    }
+`;
 
 export const ProductsSection = styled.section`
     width: 100%;

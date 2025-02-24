@@ -2,6 +2,9 @@ import styled from 'styled-components';
 
 export const ProductHeader = styled.header<{ backgroundImage: string }>`
   background: url(${(props) => props.backgroundImage}) center center / cover no-repeat;
+  // background-size: contain;
+  // background-position: center;
+  // background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
   height: 100%;
@@ -35,6 +38,15 @@ export const ProductInner = styled.div`
   @media screen and (max-width: 767px) {
     padding: 0 10px;
   }
+`;
+
+export const BrandLogo = styled.div`
+  position: absolute;
+  bottom: 60px;
+  img {
+      height: 160px;
+      width: 180px;
+    }
 `;
 
 export const ProductTitle = styled.h2`

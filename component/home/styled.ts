@@ -117,3 +117,12 @@ export const ReadMore = styled(Link)`
   font-weight: 600 !important;
   text-decoration: none;
 `;
+
+export const BrandLogo = styled.div`
+  position: absolute;
+  bottom: 82px;
+  img {
+      height: 160px;
+      width: 180px;
+    }
+`;

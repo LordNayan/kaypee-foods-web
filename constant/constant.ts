@@ -1,3 +1,4 @@
+import { faFacebook, faInstagram, faTwitter } from "@fortawesome/free-brands-svg-icons"; 
 export const socialMedialIcons = {
     facebook: "/images/common/footer/facebook_logo.png",
     instagram: "/images/common/footer/instagram_logo.png",
@@ -14,9 +15,9 @@ export const productsImages = {
 }
 
 export const heroSectionBgImages = {
-    aboutUs: "./images/home/hero-slider/slide9.png",
-    products: "./images/home/hero-slider/slide10.png",
-    distributors: "./images/home/hero-slider/slide11.png",
+    aboutUs: "./images/home/hero-slider/slide9.jpg",
+    products: "./images/home/hero-slider/slide10.jpg",
+    distributors: "./images/home/hero-slider/slide11.jpg",
     contactUs: "/images/common/bg-img/int-hero-contact-us.jpg",
 }
 
@@ -32,19 +33,19 @@ export const getCommonAssets = {
             {
                 id: 1,
                 iconLink: socialMedialLinks?.facebook,
-                iconSrc: socialMedialIcons?.facebook,
-                iconAlt: "facebook-icon"
+                iconSrc: faFacebook,
+                iconAlt: "facebook-icon",
             },
             {
                 id: 2,
                 iconLink: socialMedialLinks?.instagram,
-                iconSrc: socialMedialIcons?.instagram,
+                iconSrc: faInstagram,
                 iconAlt: "instagram-icon"
             },
             {
                 id: 3,
                 iconLink: socialMedialLinks?.twitter,
-                iconSrc: socialMedialIcons?.twitter,
+                iconSrc: faTwitter,
                 iconAlt: "twitter-icon"
             }
         ],
