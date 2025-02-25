@@ -14,7 +14,7 @@ export default function Page({ params }: any) {
   return (
     <div>
       <CustomNavbar />
-      <DynamicProduct getSlug={getSlug} /> ;
+      <DynamicProduct getSlug={getSlug} />
     </div>
   )
 }

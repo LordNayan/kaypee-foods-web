@@ -7,8 +7,9 @@ import { Navigation, Pagination, Parallax, Autoplay } from "swiper/modules";
 import Link from "next/link";
 import { Container } from "react-bootstrap";
 import Footer from "../common/footer/footer";
-import { HomeMain, SlideSubTitleStyled, SlideTitleStyled, StyledHeader, SwipeButtonStyle } from "./styled";
+import { BrandLogo, HomeMain, SlideSubTitleStyled, SlideTitleStyled, StyledHeader, SwipeButtonStyle } from "./styled";
 import TextContentBlock from "./textContentBlock";
+import CustomNavbar from "../common/navbar/navbar";
 
 const Home = () => {
   const slides = [
@@ -16,13 +17,13 @@ const Home = () => {
       id: 1,
       title: "",
       subtitle: "",
-      image: "./images/home/hero-slider/slide4.png",
+      image: "./images/home/hero-slider/slide4.jpg",
     },
     {
       id: 2,
       title: "",
       subtitle: "",
-      image: "./images/home/hero-slider/slide5.png",
+      image: "./images/home/hero-slider/slide5.jpg",
     },
     {
       id: 3,
@@ -34,36 +35,37 @@ const Home = () => {
       id: 4,
       title: "",
       subtitle: "",
-      image: "./images/home/hero-slider/slide7.png",
+      image: "./images/home/hero-slider/slide7.jpg",
     },
     {
       id: 5,
       title: "",
       subtitle: "",
-      image: "./images/home/hero-slider/slide8.png",
+      image: "./images/home/hero-slider/slide8.jpg",
     },
     {
       id: 6,
       title: "",
       subtitle: "",
-      image: "./images/home/hero-slider/slide9.png",
+      image: "./images/home/hero-slider/slide9.jpg",
     },
     {
       id: 7,
       title: "",
       subtitle: "",
-      image: "./images/home/hero-slider/slide10.png",
+      image: "./images/home/hero-slider/slide10.jpg",
     },
     {
       id: 8,
       title: "",
       subtitle: "",
-      image: "./images/home/hero-slider/slide11.png",
+      image: "./images/home/hero-slider/slide11.jpg",
     },
   ];
 
   return (
     <div>
+      <CustomNavbar />
       <StyledHeader>
         <Swiper
           modules={[Navigation, Pagination, Parallax, Autoplay]}
@@ -125,13 +127,16 @@ const Home = () => {
                   <Link href="/products">
                     <SwipeButtonStyle>GET STARTED</SwipeButtonStyle>
                   </Link>
+                  <BrandLogo><img src="./images/common/navbar/kaypee_logo.png" alt="brand-logo" /></BrandLogo>
                 </Container>
               </div>
             </SwiperSlide>
           ))}
           {/* Custom Navigation Buttons */}
-        <div className="swiper-button-prev" data-text="PREV">PREV</div>     
-        <div className="swiper-button-next" data-text="NEXT">NEXT</div>
+          <div className="swipper-action-btn">
+            <div className="swiper-button-prev" data-text="PREV">PREV</div>     
+            <div className="swiper-button-next" data-text="NEXT">NEXT</div>
+          </div>
         </Swiper>
       </StyledHeader>
       <HomeMain>

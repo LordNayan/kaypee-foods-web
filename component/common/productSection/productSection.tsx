@@ -13,10 +13,12 @@ import {
   WorkTitle,
   WorkTitleHeading,
 } from "./styled";
+import FramerMotionWrap from "../framerMotionWrap/framerMotionWrap";
 
 const ProductSection = () => {
   return (
     <ProductsSection>
+      <FramerMotionWrap>
       <Container>
         <WorkTitle>
           <WorkTitleHeading>Products</WorkTitleHeading>
@@ -43,6 +45,7 @@ const ProductSection = () => {
             </Col>
           ))}
       </Row>
+      </FramerMotionWrap>
     </ProductsSection>
   );
 };

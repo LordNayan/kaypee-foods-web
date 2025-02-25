@@ -2,6 +2,7 @@
 
 import React, { useEffect, useState } from "react";
 import {
+  BrandLogo,
   ProductHeader,
   ProductInner,
   ProductInnerContent,
@@ -13,6 +14,7 @@ import { Container } from "react-bootstrap";
 import Footer from "../common/footer/footer";
 import { dynamicProductDetails } from "@/constant/dynamicProductsDetails";
 import DynamicProductSection from "./dynamicProductSection";
+import FramerMotionWrap from "../common/framerMotionWrap/framerMotionWrap";
 
 const DynamicProduct = ({ getSlug }: any) => {
   const [product, setProduct] = useState<any>(null);
@@ -25,13 +27,14 @@ const DynamicProduct = ({ getSlug }: any) => {
   }, [getSlug]);
 
   return (
-    <div>
+    <FramerMotionWrap>
        <ProductHeader backgroundImage={product?.heroImg || "/images/products/bg-img/int-hero-products.jpg"}>
         <ProductInnerContent>
           <ProductInner>
             <Container>
               <ProductTitle>{product?.itemName}</ProductTitle>
               <ProductSubTitle>{product?.itemSubTitle}</ProductSubTitle>
+              <BrandLogo><img src="./images/common/navbar/kaypee_logo.png" alt="brand-logo" /></BrandLogo>
             </Container>
           </ProductInner>
         </ProductInnerContent>
@@ -41,7 +44,7 @@ const DynamicProduct = ({ getSlug }: any) => {
         <DynamicProductSection product={product} />
         <Footer />
       </ProductMain>
-    </div>
+    </FramerMotionWrap>
   );
 };
 

@@ -20,7 +20,7 @@ export async function generateMetadata({ params }: any): Promise<Metadata> {
   }
 
   return {
-    title: 'Not Found',
+    title: 'Not Found | Kay Pee',
     description: 'The page you are looking for does not exist.',
   };
 }
