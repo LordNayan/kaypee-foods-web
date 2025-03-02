@@ -51,6 +51,43 @@ export const SlideSubTitleStyled = styled.h2`
   }
 `;
 
+export const TextContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 100px;
+`;
+
+export const TextStyled = styled.p`
+  margin: 0;
+  // padding: 10px;
+  font-size: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  font-weight: 800;
+  font-size: 13px;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+`;
+
+export const TextHover = styled(TextStyled)`
+  opacity: 0;
+  transform: translateY(100%);
+`;
+
+export const StyledTextContainer = styled(TextContainer)`
+  &:hover ${TextStyled} {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+
+  &:hover ${TextHover} {
+    transform: translateY(0);
+    opacity: 1;
+  }
+`;
+
 export const SwipeButtonStyle = styled.span`
   width: 180px;
   height: 54px;
@@ -94,6 +131,7 @@ export const Figure = styled.figure`
 export const Title = styled.h4`
   font-weight: 600;
   font-size: 3vw;
+  color: #323434;
   margin-bottom: 50px;
   @media screen and (max-width: 767px) {
     font-size: 7vw;
@@ -121,8 +159,16 @@ export const ReadMore = styled(Link)`
 export const BrandLogo = styled.div`
   position: absolute;
   bottom: 82px;
+  @media screen and (max-width: 767px) {
+    left: 25px;
+  }
   img {
-      height: 160px;
-      width: 180px;
+      margin-left: 33px;
+      height: 120px;
+      width: 140px;
+      @media screen and (max-width: 767px) {
+        height: 85px;
+        width: 100px;
+      }
     }
 `;

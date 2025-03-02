@@ -1,10 +1,18 @@
 export const appRoutingConst = [
-    { slug: 'truffles', title: 'Truffles Delight', description: 'Delicious truffles for you.' },
-    { slug: 'bites', title: 'Tasty Bites', description: 'Small bites, big flavors.' },
-    { slug: 'squares', title: 'Chocolate Squares', description: 'Perfectly shaped chocolate squares.' },
-    { slug: 'wafer-rolls', title: 'Crispy Wafer Rolls', description: 'Crunchy wafer rolls for snack time.' },
-    { slug: 'cocoa-bar', title: 'Chocolate Bars', description: 'Classic chocolate bars you love.' },
-    { slug: 'gift-boxes', title: 'Gift Boxes', description: 'Perfect gift boxes for any occasion.' },
+    { slug: 'premium-candy', title: 'Truffles Delight', description: 'Delicious truffles for you.' },
+    { slug: 'filled-candy', title: 'Tasty Bites', description: 'Small bites, big flavors.' },
+    { slug: 'heart-centre', title: 'Chocolate Squares', description: 'Perfectly shaped chocolate squares.' },
+    { slug: 'center-filled', title: 'Crispy Wafer Rolls', description: 'Crunchy wafer rolls for snack time.' },
+    { slug: 'deposited', title: 'Chocolate Bars', description: 'Classic chocolate bars you love.' },
+    { slug: 'candy-spicy', title: 'Gift Boxes', description: 'Perfect gift boxes for any occasion.' },
+    { slug: 'premium-jumbo', title: 'Candy Spicy', description: 'Perfect gift boxes for any occasion.' },
+    { slug: 'premium-centre', title: 'Candy Spicy', description: 'Perfect gift boxes for any occasion.' },
+    { slug: 'premium-bar', title: 'Candy Spicy', description: 'Perfect gift boxes for any occasion.' },
+    { slug: 'premium-butter', title: 'Candy Spicy', description: 'Perfect gift boxes for any occasion.' },
+    { slug: 'premium-toffee', title: 'Candy Spicy', description: 'Perfect gift boxes for any occasion.' },
+    { slug: 'premium-milky', title: 'Candy Spicy', description: 'Perfect gift boxes for any occasion.' },
+    { slug: 'jelly-toffee', title: 'Candy Spicy', description: 'Perfect gift boxes for any occasion.' },
+    { slug: 'lollipops', title: 'Candy Spicy', description: 'Perfect gift boxes for any occasion.' },
 ];
 
 export const navigation = [

@@ -5,6 +5,7 @@ import HeaderSection from "../common/headerSection/headerSection";
 import { customHeaderSectionDetails } from "@/constant/constant";
 import {
   ContactBoxContainer,
+  ContactDiv,
   ContactSection,
   ContactUsMain,
   GetInTitle,
@@ -102,6 +103,9 @@ const ContactUs = () => {
                 <Col md={5} className="mt-4">
                   <Title>CONTACT FORM</Title>
                   <SubTitle>If you have any questions just ask us</SubTitle>
+                  <ContactDiv>
+                    <img src="/images/common/contactus/whatsapp-img.png" alt="whatsapp-img" />
+                  </ContactDiv>
                 </Col>
                 <Col md={6} className="mt-4">
                   {successMessage && (

@@ -47,7 +47,7 @@ export const ProductInner = styled.div`
 `;
 
 export const ProductTitle = styled.h2`
-  font-size: 8vw;
+  font-size: 6vw;
   color: #fff;
   display: block;
   font-weight: 800;
@@ -68,9 +68,13 @@ export const BrandLogo = styled.div`
   position: absolute;
   bottom: 60px;
   img {
-      height: 160px;
-      width: 180px;
-    }
+      height: 120px;
+      width: 140px;
+      @media screen and (max-width: 767px) {
+        height: 85px;
+        width: 100px;
+      }
+  }
 `;
 
 export const ProductsSection = styled.section`

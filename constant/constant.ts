@@ -1,4 +1,5 @@
-import { faFacebook, faInstagram, faTwitter } from "@fortawesome/free-brands-svg-icons"; 
+import { faFacebook, faInstagram, faYoutube } from "@fortawesome/free-brands-svg-icons"; // Import the faReact icon
+
 export const socialMedialIcons = {
     facebook: "/images/common/footer/facebook_logo.png",
     instagram: "/images/common/footer/instagram_logo.png",
@@ -6,16 +7,24 @@ export const socialMedialIcons = {
 }
 
 export const productsImages = {
-    product1: "/images/common/products/Truffles.jpg",
-    product2: "/images/common/products/Bites.jpg",
-    product3: "/images/common/products/Squares.jpg",
-    product4: "/images/common/products/Wafer-Rolls.jpg",
-    product5: "/images/common/products/Cocoa-Bar.jpg",
-    product6: "/images/common/products/gifting-range.jpg",
+    product1: "/images/common/products/Premiumcandy1.jpg",
+    product2: "/images/common/products/Premiumcenterf.jpg",
+    product3: "/images/common/products/Heartcentre.jpg",
+    product4: "/images/common/products/CentreFilled.jpg",
+    product5: "/images/common/products/Deposited.jpg",
+    product6: "/images/common/products/candysp.jpg",
+    product7: "/images/common/products/premiumjumbo.jpg",
+    product8: "/images/common/products/premiumcfc.jpg",
+    product9: "/images/common/products/premiumbt.jpg",
+    product10: "/images/common/products/premium_bt.jpg",
+    product11: "/images/common/products/Premium_T.jpg",
+    product12: "/images/common/products/Premium_MT.jpg",
+    product13: "/images/common/products/ChewJ.jpg",
+    product14: "/images/common/products/Lollip.jpg",
 }
 
 export const heroSectionBgImages = {
-    aboutUs: "./images/home/hero-slider/slide9.jpg",
+    aboutUs: "./images/home/hero-slider/slide12.jpg",
     products: "./images/home/hero-slider/slide10.jpg",
     distributors: "./images/home/hero-slider/slide11.jpg",
     contactUs: "/images/common/bg-img/int-hero-contact-us.jpg",
@@ -45,47 +54,97 @@ export const getCommonAssets = {
             {
                 id: 3,
                 iconLink: socialMedialLinks?.twitter,
-                iconSrc: faTwitter,
-                iconAlt: "twitter-icon"
+                iconSrc: faYoutube,
+                iconAlt: "youtube-icon"
             }
         ],
         products: [
             {
                 id: 1,
                 imgSrc: productsImages?.product1,
-                imgLink: "/truffles",
-                imgAlt: "Truffles"
+                imgLink: "/premium-candy",
+                imgAlt: "PREMIUM CANDY"
             },
             {
                 id: 2,
                 imgSrc: productsImages?.product2,
-                imgLink: "/bites",
-                imgAlt: "Bites"
+                imgLink: "/filled-candy",
+                imgAlt: "PREMIUM Centre-Filled CANDY"
             },
             {
                 id: 3,
                 imgSrc: productsImages?.product3,
-                imgLink: "/squares",
-                imgAlt: "Squares"
+                imgLink: "/heart-centre",
+                imgAlt: "Heart Centre-Filled CANDY"
             },
             {
                 id: 4,
                 imgSrc: productsImages?.product4,
-                imgLink: "/wafer-rolls",
-                imgAlt: "Wafer Rolls"
+                imgLink: "/center-filled",
+                imgAlt: "Center Filled Candy"
             },
             {
                 id: 5,
                 imgSrc: productsImages?.product5,
-                imgLink: "/cocoa-bar",
-                imgAlt: "Bars"
+                imgLink: "/deposited",
+                imgAlt: "Deposited Candy"
             },
             {
                 id: 6,
                 imgSrc: productsImages?.product6,
-                imgLink: "/gift-boxes",
-                imgAlt: "Gifting Range"
-            }
+                imgLink: "/candy-spicy",
+                imgAlt: "Candy + Spicy Candy"
+            },
+            {
+                id: 7,
+                imgSrc: productsImages?.product7,
+                imgLink: "/premium-jumbo",
+                imgAlt: "Premium Jumbo Toffee"
+            },
+            {
+                id: 8,
+                imgSrc: productsImages?.product8,
+                imgLink: "/premium-centre",
+                imgAlt: "Premium Centre Filled Eclairs"
+            },
+            {
+                id: 9,
+                imgSrc: productsImages?.product9,
+                imgLink: "/premium-bar",
+                imgAlt: "Premium Bar Toffee"
+            },
+            {
+                id: 10,
+                imgSrc: productsImages?.product10,
+                imgLink: "/premium-butter",
+                imgAlt: "Premium Butter Toffee"
+            },
+            {
+                id: 11,
+                imgSrc: productsImages?.product11,
+                imgLink: "/premium-toffee",
+                imgAlt: "Premium Toffee"
+            },
+            {
+                id: 12,
+                imgSrc: productsImages?.product12,
+                imgLink: "/premium-milky",
+                imgAlt: "Premium Milky Roll Toffee"
+            },
+            {
+                id: 13,
+                imgSrc: productsImages?.product13,
+                imgLink: "/jelly-toffee",
+                imgAlt: "Chew + Jelly Toffee"
+            },
+            {
+                id: 14,
+                imgSrc: productsImages?.product14,
+                imgLink: "/lollipops",
+                imgAlt: "Lollipops"
+            },
+           
+            //Premium Butter Toffee
         ]
     }
 }
