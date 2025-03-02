@@ -52,3 +52,12 @@ export const StyledNavLink = styled(Link)`
     }
   }
 `;
+
+export const NavSecondLogo = styled.div`
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
+  img {
+      height: 93px;
+    }
+`;

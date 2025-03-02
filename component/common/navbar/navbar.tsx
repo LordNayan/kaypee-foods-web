@@ -5,7 +5,12 @@ import Image from "next/image";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import { navigation } from "@/constant/appRouting";
 import FramerMotionWrap from "../framerMotionWrap/framerMotionWrap";
-import { Logo, StyledNavbar, StyledNavLink } from "./style";
+import {
+  Logo,
+  NavSecondLogo,
+  StyledNavbar,
+  StyledNavLink,
+} from "./style";
 
 const CustomNavbar = () => {
   return (
@@ -37,6 +42,13 @@ const CustomNavbar = () => {
               ))}
             </Nav>
           </Navbar.Collapse>
+
+          <NavSecondLogo className="ms-auto">
+            <img
+              src="./images/common/navbar/kaypee_logo.png"
+              alt="brand-logo"
+            />
+          </NavSecondLogo>
         </Container>
       </StyledNavbar>
     </FramerMotionWrap>

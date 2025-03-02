@@ -28,6 +28,16 @@ export const SubTitle = styled.h3`
     color: #313434;
 `;
 
+export const ContactDiv = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+  img {
+    height: 230px;
+  }
+`;
+
 export const StyledLabel = styled(Form.Label)`
   width: 100%;
   float: left;

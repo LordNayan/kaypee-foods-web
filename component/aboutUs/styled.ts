@@ -18,6 +18,7 @@ export const Figure = styled.figure`
 export const Title = styled.h4`
   font-weight: 600;
   font-size: 3vw;
+  color: #323434;
   margin-bottom: 50px;
   @media screen and (max-width: 767px) {
     font-size: 7vw;

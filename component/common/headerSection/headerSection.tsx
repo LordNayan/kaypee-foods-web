@@ -22,14 +22,16 @@ const HeaderSection = ({ pageDetails }: any) => {
           <ProductInner>
             <Container>
               <ProductTitle>{pageDetails?.title}</ProductTitle>
-              <BrandLogo>
-                <img
-                  src="./images/common/navbar/kaypee_logo.png"
-                  alt="brand-logo"
-                />
-              </BrandLogo>
             </Container>
           </ProductInner>
+          <Container>
+          {/* <BrandLogo>
+            <img
+              src="./images/common/navbar/kaypee_logo.png"
+              alt="brand-logo"
+            />
+          </BrandLogo> */}
+          </Container>
         </ProductInnerContent>
       </ProductHeader>
     </FramerMotionWrap>

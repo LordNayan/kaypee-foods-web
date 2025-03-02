@@ -34,9 +34,11 @@ const DynamicProduct = ({ getSlug }: any) => {
             <Container>
               <ProductTitle>{product?.itemName}</ProductTitle>
               <ProductSubTitle>{product?.itemSubTitle}</ProductSubTitle>
-              <BrandLogo><img src="./images/common/navbar/kaypee_logo.png" alt="brand-logo" /></BrandLogo>
             </Container>
           </ProductInner>
+          <Container>
+          {/* <BrandLogo><img src="./images/common/navbar/kaypee_logo.png" alt="brand-logo" /></BrandLogo> */}
+          </Container>
         </ProductInnerContent>
       </ProductHeader>
 

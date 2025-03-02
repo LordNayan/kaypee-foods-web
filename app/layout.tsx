@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google"; // Import only Geist and Geist_Mono
 import { Poppins } from "next/font/google"; // Import Poppins without variable
+import Loader from "@/component/common/loader/loader";
+import { Suspense } from "react"; // Import Suspense
 import "./globals.scss";
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -25,7 +27,7 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   title: "Kay Pee",
   description: "Kay Pee",
-  icons: "./images/common/navbar/kaypee_logo.png",
+  icons: "./images/common/navbar/logo.png",
 };
 
 export default function RootLayout({
@@ -38,7 +40,9 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${poppins.className}`}
       >
-        {children}
+        <Suspense fallback={<Loader />}>
+          {children}
+        </Suspense>
       </body>
     </html>
   );

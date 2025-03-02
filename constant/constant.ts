@@ -1,4 +1,5 @@
-import { faFacebook, faInstagram, faTwitter } from "@fortawesome/free-brands-svg-icons"; 
+import { faFacebook, faInstagram, faYoutube } from "@fortawesome/free-brands-svg-icons"; // Import the faReact icon
+
 export const socialMedialIcons = {
     facebook: "/images/common/footer/facebook_logo.png",
     instagram: "/images/common/footer/instagram_logo.png",
@@ -15,7 +16,7 @@ export const productsImages = {
 }
 
 export const heroSectionBgImages = {
-    aboutUs: "./images/home/hero-slider/slide9.jpg",
+    aboutUs: "./images/home/hero-slider/slide12.jpg",
     products: "./images/home/hero-slider/slide10.jpg",
     distributors: "./images/home/hero-slider/slide11.jpg",
     contactUs: "/images/common/bg-img/int-hero-contact-us.jpg",
@@ -45,8 +46,8 @@ export const getCommonAssets = {
             {
                 id: 3,
                 iconLink: socialMedialLinks?.twitter,
-                iconSrc: faTwitter,
-                iconAlt: "twitter-icon"
+                iconSrc: faYoutube,
+                iconAlt: "youtube-icon"
             }
         ],
         products: [
@@ -54,38 +55,93 @@ export const getCommonAssets = {
                 id: 1,
                 imgSrc: productsImages?.product1,
                 imgLink: "/truffles",
-                imgAlt: "Truffles"
+                imgAlt: "PREMIUM CANDY"
             },
             {
                 id: 2,
                 imgSrc: productsImages?.product2,
                 imgLink: "/bites",
-                imgAlt: "Bites"
+                imgAlt: "PREMIUM Centre-Filled CANDY"
             },
             {
                 id: 3,
                 imgSrc: productsImages?.product3,
                 imgLink: "/squares",
-                imgAlt: "Squares"
+                imgAlt: "Heart Centre-Filled CANDY"
             },
             {
                 id: 4,
                 imgSrc: productsImages?.product4,
                 imgLink: "/wafer-rolls",
-                imgAlt: "Wafer Rolls"
+                imgAlt: "Center Filled Candy"
             },
             {
                 id: 5,
                 imgSrc: productsImages?.product5,
                 imgLink: "/cocoa-bar",
-                imgAlt: "Bars"
+                imgAlt: "Deposited Candy"
             },
             {
                 id: 6,
                 imgSrc: productsImages?.product6,
                 imgLink: "/gift-boxes",
-                imgAlt: "Gifting Range"
+                imgAlt: "Candy + Spicy Candy"
+            },
+            {
+                id: 7,
+                imgSrc: productsImages?.product6,
+                imgLink: "/gift-boxes",
+                imgAlt: "Premium Jumbo Toffee"
+            },
+            {
+                id: 8,
+                imgSrc: productsImages?.product6,
+                imgLink: "/gift-boxes",
+                imgAlt: "Premium Centre Filled Eclairs"
+            },
+            {
+                id: 9,
+                imgSrc: productsImages?.product6,
+                imgLink: "/gift-boxes",
+                imgAlt: "Premium Bar Toffee"
+            },
+            {
+                id: 10,
+                imgSrc: productsImages?.product6,
+                imgLink: "/gift-boxes",
+                imgAlt: "Premium Butter Toffee"
+            },
+            {
+                id: 11,
+                imgSrc: productsImages?.product6,
+                imgLink: "/gift-boxes",
+                imgAlt: "Premium Toffee"
+            },
+            {
+                id: 12,
+                imgSrc: productsImages?.product6,
+                imgLink: "/gift-boxes",
+                imgAlt: "Premium Milky Roll Toffee"
+            },
+            {
+                id: 13,
+                imgSrc: productsImages?.product6,
+                imgLink: "/gift-boxes",
+                imgAlt: "Chew + Jelly Toffee"
+            },
+            {
+                id: 14,
+                imgSrc: productsImages?.product6,
+                imgLink: "/gift-boxes",
+                imgAlt: "Lollipops"
+            },
+            {
+                id: 15,
+                imgSrc: productsImages?.product6,
+                imgLink: "/gift-boxes",
+                imgAlt: "Jellies"
             }
+            //Premium Butter Toffee
         ]
     }
 }
