@@ -29,7 +29,7 @@ const AboutUs = () => {
                 <Col lg={4}>
                   <Figure>
                     <img
-                      src="/images/about-us/text-wrapper-image.jpg"
+                      src="/images/common/products/premiumcfc.jpg"
                       alt="text-wrapper-image"
                     />
                   </Figure>
@@ -81,7 +81,7 @@ const AboutUs = () => {
                   </Paragraph>
                 </Col>
                 <Col lg={3}>
-                  <Image src="/images/about-us/about-us-2.jpg" alt="Image" />
+                  <Image  src="/images/common/products/premiumjumbo.jpg" alt="Image" />
                 </Col>
               </CustomRow>
             </Container>

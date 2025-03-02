@@ -93,7 +93,7 @@ const Distributors = () => {
                 <Col md={5} className="mt-4">
                   <Figure>
                     <img
-                      src="/images/about-us/text-wrapper-image.jpg"
+                      src="/images/common/products/Heartcentre.jpg"
                       alt="text-wrapper-image"
                     />
                   </Figure>

@@ -3,13 +3,13 @@ export const dynamicProductDetails = [
         id: 1,
         itemName: "PREMIUM CANDY",
         // itemSubTitle: "Indulge in the flavours of delicious & cream-filled truffles",
-        heroImg: "/images/products/Truffles/int-hero-truffles.jpg",
-        slug: "truffles",
+        heroImg: "/images/products/Premium-candy/coverpc.png",
+        slug: "premium-candy",
         productItemsList: [
             {
                 id: 1,
                 title: "Double koffee",
-                src: "/images/products/Truffles/assorted.jpg",
+                src: "/images/products/Premium-candy/1.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -31,7 +31,7 @@ export const dynamicProductDetails = [
             {
                 id: 2,
                 title: "Milkiss",
-                src: "/images/products/Truffles/blackcurrant.jpg",
+                src: "/images/products/Premium-candy/2.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -53,7 +53,7 @@ export const dynamicProductDetails = [
             {
                 id: 3,
                 title: "Averyday Strawberry",
-                src: "/images/products/Truffles/butterscoth.jpg",
+                src: "/images/products/Premium-candy/3.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -75,7 +75,7 @@ export const dynamicProductDetails = [
             {
                 id: 4,
                 title: "Averyday Gold",
-                src: "/images/products/Truffles/coffee.jpg",
+                src: "/images/products/Premium-candy/4.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -97,7 +97,7 @@ export const dynamicProductDetails = [
             {
                 id: 5,
                 title: "Green Apple",
-                src: "/images/products/Truffles/coconut.jpg",
+                src: "/images/products/Premium-candy/5.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -119,7 +119,7 @@ export const dynamicProductDetails = [
             {
                 id: 6,
                 title: "Jucy Litchi",
-                src: "/images/products/Truffles/coconut.jpg",
+                src: "/images/products/Premium-candy/6.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -141,7 +141,7 @@ export const dynamicProductDetails = [
             {
                 id: 7,
                 title: "Jucy Kharbooja",
-                src: "/images/products/Truffles/coconut.jpg",
+                src: "/images/products/Premium-candy/7.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -163,7 +163,7 @@ export const dynamicProductDetails = [
             {
                 id: 8,
                 title: "Jucy Mango Shake",
-                src: "/images/products/Truffles/coconut.jpg",
+                src: "/images/products/Premium-candy/8.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -185,7 +185,7 @@ export const dynamicProductDetails = [
             {
                 id: 9,
                 title: "Coco Crunch",
-                src: "/images/products/Truffles/coconut.jpg",
+                src: "/images/products/Premium-candy/9.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -209,13 +209,13 @@ export const dynamicProductDetails = [
     {
         id: 2,
         itemName: "PREMIUM Centre-Filled CANDY",
-        heroImg: "/images/products/Bites/int-hero-bites.jpg",
-        slug: "bites",
+        heroImg: "/images/products/PCFC/coverpcf.jpg",
+        slug: "filled-candy",
         productItemsList: [
             {
                 id: 1,
                 title: "Creamy Coffee Gold",
-                src: "/images/products/Truffles/assorted.jpg",
+                src: "/images/products/PCFC/1.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -237,7 +237,7 @@ export const dynamicProductDetails = [
             {
                 id: 2,
                 title: "Creamy Caramel Original",
-                src: "/images/products/Truffles/blackcurrant.jpg",
+                src: "/images/products/PCFC/2.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -259,7 +259,7 @@ export const dynamicProductDetails = [
             {
                 id: 3,
                 title: "Lacto Milk Bon",
-                src: "/images/products/Truffles/butterscoth.jpg",
+                src: "/images/products/PCFC/3.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -281,7 +281,7 @@ export const dynamicProductDetails = [
             {
                 id: 4,
                 title: "Double Nariyal",
-                src: "/images/products/Truffles/coffee.jpg",
+                src: "/images/products/PCFC/4.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -303,7 +303,7 @@ export const dynamicProductDetails = [
             {
                 id: 5,
                 title: "Eclair Crunch",
-                src: "/images/products/Truffles/coconut.jpg",
+                src: "/images/products/PCFC/5.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -325,7 +325,7 @@ export const dynamicProductDetails = [
             {
                 id: 6,
                 title: "Mango Tango",
-                src: "/images/products/Truffles/coconut.jpg",
+                src: "/images/products/PCFC/6.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -347,7 +347,7 @@ export const dynamicProductDetails = [
             {
                 id: 7,
                 title: "Frut Bon",
-                src: "/images/products/Truffles/coconut.jpg",
+                src: "/images/products/PCFC/7.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -369,7 +369,7 @@ export const dynamicProductDetails = [
             {
                 id: 8,
                 title: "Frutti Peach",
-                src: "/images/products/Truffles/coconut.jpg",
+                src: "/images/products/PCFC/8.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -391,7 +391,7 @@ export const dynamicProductDetails = [
             {
                 id: 9,
                 title: "Pink Guava",
-                src: "/images/products/Truffles/coconut.jpg",
+                src: "/images/products/PCFC/9.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -413,7 +413,7 @@ export const dynamicProductDetails = [
             {
                 id: 10,
                 title: "Peanut Butter Candy",
-                src: "/images/products/Truffles/coconut.jpg",
+                src: "/images/products/PCFC/10.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -438,13 +438,13 @@ export const dynamicProductDetails = [
         id: 3,
         itemName: "Heart Centre-Filled CANDY",
         itemSubTitle: "Indulge in the flavours of delicious & cream-filled truffles",
-        heroImg: "/images/products/Squares/int-hero-squares.jpg",
-        slug: "squares",
+        heroImg: "/images/products/hcfc/coverhcfc.jpg",
+        slug: "heart-centre",
         productItemsList: [
             {
                 id: 1,
                 title: "Pan Muskan",
-                src: "/images/products/Truffles/assorted.jpg",
+                src: "/images/products/hcfc/1.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -466,7 +466,7 @@ export const dynamicProductDetails = [
             {
                 id: 2,
                 title: "Real Love Strawberry",
-                src: "/images/products/Truffles/blackcurrant.jpg",
+                src: "/images/products/hcfc/2.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -488,7 +488,7 @@ export const dynamicProductDetails = [
             {
                 id: 3,
                 title: "Real Love Green Apple",
-                src: "/images/products/Truffles/butterscoth.jpg",
+                src: "/images/products/hcfc/3.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -510,7 +510,7 @@ export const dynamicProductDetails = [
             {
                 id: 4,
                 title: "Real Love Assorted",
-                src: "/images/products/Truffles/coffee.jpg",
+                src: "/images/products/hcfc/4.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -535,13 +535,13 @@ export const dynamicProductDetails = [
         id: 4,
         itemName: "Center Filled Candy",
         itemSubTitle: "Indulge in the flavours of delicious & cream-filled truffles",
-        heroImg: "/images/products/Wafer-Rolls/int-hero-wafer-rolls.jpg",
-        slug: "wafer-rolls",
+        heroImg: "/images/products/cfc/covercfc.jpg",
+        slug: "center-filled",
         productItemsList: [
             {
                 id: 1,
                 title: "Coffee Crunch",
-                src: "/images/products/Truffles/assorted.jpg",
+                src: "/images/products/cfc/1.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -563,7 +563,7 @@ export const dynamicProductDetails = [
             {
                 id: 2,
                 title: "Creamy Kharbooja",
-                src: "/images/products/Truffles/blackcurrant.jpg",
+                src: "/images/products/cfc/2.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -585,7 +585,7 @@ export const dynamicProductDetails = [
             {
                 id: 3,
                 title: "Coconut Ball",
-                src: "/images/products/Truffles/butterscoth.jpg",
+                src: "/images/products/cfc/3.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -607,7 +607,7 @@ export const dynamicProductDetails = [
             {
                 id: 4,
                 title: "Crazy Cola",
-                src: "/images/products/Truffles/coffee.jpg",
+                src: "/images/products/cfc/4.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -629,7 +629,7 @@ export const dynamicProductDetails = [
             {
                 id: 5,
                 title: "Cream Ball",
-                src: "/images/products/Truffles/coconut.jpg",
+                src: "/images/products/cfc/5.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -654,13 +654,13 @@ export const dynamicProductDetails = [
         id: 5,
         itemName: "Deposited Candy",
         itemSubTitle: "Indulge in the flavours of delicious & cream-filled truffles",
-        heroImg: "/images/products/Cocoa-Bar/int-hero-cocoa-bar.jpg",
-        slug: "cocoa-bar",
+        heroImg: "/images/products/depo/coverd.jpg",
+        slug: "deposited",
         productItemsList: [
             {
                 id: 1,
                 title: "Averyday Milk",
-                src: "/images/products/Truffles/assorted.jpg",
+                src: "/images/products/depo/1.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -682,7 +682,7 @@ export const dynamicProductDetails = [
             {
                 id: 2,
                 title: "London Delights",
-                src: "/images/products/Truffles/blackcurrant.jpg",
+                src: "/images/products/depo/2.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -704,7 +704,7 @@ export const dynamicProductDetails = [
             {
                 id: 3,
                 title: "Milky Cream",
-                src: "/images/products/Truffles/butterscoth.jpg",
+                src: "/images/products/depo/3.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -726,7 +726,7 @@ export const dynamicProductDetails = [
             {
                 id: 4,
                 title: "Coffee Candy",
-                src: "/images/products/Truffles/coffee.jpg",
+                src: "/images/products/depo/4.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -748,7 +748,7 @@ export const dynamicProductDetails = [
             {
                 id: 5,
                 title: "Candyday",
-                src: "/images/products/Truffles/coconut.jpg",
+                src: "/images/products/depo/5.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -770,7 +770,7 @@ export const dynamicProductDetails = [
             {
                 id: 6,
                 title: "Koffee Rich",
-                src: "/images/products/Truffles/coconut.jpg",
+                src: "/images/products/depo/6.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -792,7 +792,7 @@ export const dynamicProductDetails = [
             {
                 id: 7,
                 title: "Kaccha Aam",
-                src: "/images/products/Truffles/coconut.jpg",
+                src: "/images/products/depo/7.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -814,7 +814,7 @@ export const dynamicProductDetails = [
             {
                 id: 8,
                 title: "Butter Caramel",
-                src: "/images/products/Truffles/coconut.jpg",
+                src: "/images/products/depo/8.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -839,13 +839,13 @@ export const dynamicProductDetails = [
         id: 6,
         itemName: "Candy + Spicy Candy",
         itemSubTitle: "Indulge in the flavours of delicious & cream-filled truffles",
-        heroImg: "/images/products/Gifting-Range/int-hero-gift-box.jpg",
-        slug: "gift-boxes",
+        heroImg: "/images/products/csc/covercsc.jpg",
+        slug: "candy-spicy",
         productItemsList: [
             {
                 id: 1,
                 title: "Jolly Litchi",
-                src: "/images/products/Truffles/assorted.jpg",
+                src: "/images/products/csc/1.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -867,7 +867,7 @@ export const dynamicProductDetails = [
             {
                 id: 2,
                 title: "Jolly Green Apple",
-                src: "/images/products/Truffles/blackcurrant.jpg",
+                src: "/images/products/csc/2.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -889,7 +889,7 @@ export const dynamicProductDetails = [
             {
                 id: 3,
                 title: "Red Apple",
-                src: "/images/products/Truffles/butterscoth.jpg",
+                src: "/images/products/csc/3.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -911,7 +911,7 @@ export const dynamicProductDetails = [
             {
                 id: 4,
                 title: "Tango Mango",
-                src: "/images/products/Truffles/coffee.jpg",
+                src: "/images/products/csc/4.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -933,7 +933,7 @@ export const dynamicProductDetails = [
             {
                 id: 5,
                 title: "Mast Guava",
-                src: "/images/products/Truffles/coconut.jpg",
+                src: "/images/products/csc/5.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -955,7 +955,7 @@ export const dynamicProductDetails = [
             {
                 id: 6,
                 title: "Chily Imlee",
-                src: "/images/products/Truffles/coconut.jpg",
+                src: "/images/products/csc/6.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -981,7 +981,7 @@ export const dynamicProductDetails = [
         itemName: "Premium Jumbo Toffee",
         itemSubTitle: "Indulge in the flavours of delicious & cream-filled truffles",
         heroImg: "/images/products/Gifting-Range/int-hero-gift-box.jpg",
-        slug: "gift-boxes",
+        slug: "premium-jumbo",
         productItemsList: [
             {
                 id: 1,
@@ -1386,7 +1386,7 @@ export const dynamicProductDetails = [
         itemName: "Premium Bar Toffee",
         itemSubTitle: "Indulge in the flavours of delicious & cream-filled truffles",
         heroImg: "/images/products/Gifting-Range/int-hero-gift-box.jpg",
-        slug: "gift-boxes",
+        slug: "premium-centre",
         productItemsList: [
             {
                 id: 1,
@@ -1615,7 +1615,7 @@ export const dynamicProductDetails = [
         itemName: "Premium Butter Toffee",
         itemSubTitle: "Indulge in the flavours of delicious & cream-filled truffles",
         heroImg: "/images/products/Gifting-Range/int-hero-gift-box.jpg",
-        slug: "gift-boxes",
+        slug: "premium-bar",
         productItemsList: [
             {
                 id: 1,
@@ -1712,7 +1712,7 @@ export const dynamicProductDetails = [
         itemName: "Premium Centre Filled Eclairs",
         itemSubTitle: "Indulge in the flavours of delicious & cream-filled truffles",
         heroImg: "/images/products/Gifting-Range/int-hero-gift-box.jpg",
-        slug: "gift-boxes",
+        slug: "premium-butter",
         productItemsList: [
             {
                 id: 1,
@@ -1831,7 +1831,7 @@ export const dynamicProductDetails = [
         itemName: "Premium Toffee",
         itemSubTitle: "Indulge in the flavours of delicious & cream-filled truffles",
         heroImg: "/images/products/Gifting-Range/int-hero-gift-box.jpg",
-        slug: "gift-boxes",
+        slug: "premium-toffee",
         productItemsList: [
             {
                 id: 1,
@@ -2083,7 +2083,7 @@ export const dynamicProductDetails = [
         itemName: "Premium Milky Roll Toffee",
         itemSubTitle: "Indulge in the flavours of delicious & cream-filled truffles",
         heroImg: "/images/products/Gifting-Range/int-hero-gift-box.jpg",
-        slug: "gift-boxes",
+        slug: "premium-milky",
         productItemsList: [
             {
                 id: 1,
@@ -2269,7 +2269,7 @@ export const dynamicProductDetails = [
         itemName: "Chew + Jelly Toffee",
         itemSubTitle: "Indulge in the flavours of delicious & cream-filled truffles",
         heroImg: "/images/products/Gifting-Range/int-hero-gift-box.jpg",
-        slug: "gift-boxes",
+        slug: "jelly-toffee",
         productItemsList: [
             {
                 id: 1,
@@ -2476,7 +2476,7 @@ export const dynamicProductDetails = [
         itemName: "Lollipops",
         itemSubTitle: "Indulge in the flavours of delicious & cream-filled truffles",
         heroImg: "/images/products/Gifting-Range/int-hero-gift-box.jpg",
-        slug: "gift-boxes",
+        slug: "lollipops",
         productItemsList: [
             {
                 id: 1,
