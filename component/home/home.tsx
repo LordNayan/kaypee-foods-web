@@ -43,7 +43,7 @@ const Home = () => {
     },
     {
       id: 4,
-      title: "Centered Filled Fruit Flavoured Candy",
+      title: "Center Filled Fruit Flavoured Candy",
       subtitle: "Frut Bon",
       image: "./images/home/hero-slider/slide7.jpg",
     },
