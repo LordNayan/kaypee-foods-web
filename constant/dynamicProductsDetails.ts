@@ -980,13 +980,13 @@ export const dynamicProductDetails = [
         id: 7,
         itemName: "Premium Jumbo Toffee",
         itemSubTitle: "Indulge in the flavours of delicious & cream-filled truffles",
-        heroImg: "/images/products/Gifting-Range/int-hero-gift-box.jpg",
+        heroImg: "/images/products/jumbo/coverpjt.jpg",
         slug: "premium-jumbo",
         productItemsList: [
             {
                 id: 1,
                 title: "Paan Truffles",
-                src: "/images/products/Truffles/assorted.jpg",
+                src: "/images/products/jumbo/1.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -1008,7 +1008,7 @@ export const dynamicProductDetails = [
             {
                 id: 2,
                 title: "Double Truffles",
-                src: "/images/products/Truffles/blackcurrant.jpg",
+                src: "/images/products/jumbo/2.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -1030,7 +1030,7 @@ export const dynamicProductDetails = [
             {
                 id: 3,
                 title: "Rajbhog Toffee",
-                src: "/images/products/Truffles/butterscoth.jpg",
+                src: "/images/products/jumbo/3.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -1052,7 +1052,7 @@ export const dynamicProductDetails = [
             {
                 id: 4,
                 title: "Black Cow Milk",
-                src: "/images/products/Truffles/coffee.jpg",
+                src: "/images/products/jumbo/4.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -1074,7 +1074,7 @@ export const dynamicProductDetails = [
             {
                 id: 5,
                 title: "Truffles",
-                src: "/images/products/Truffles/coconut.jpg",
+                src: "/images/products/jumbo/5.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -1096,7 +1096,7 @@ export const dynamicProductDetails = [
             {
                 id: 6,
                 title: "Rasmalai Barfi",
-                src: "/images/products/Truffles/coconut.jpg",
+                src: "/images/products/jumbo/6.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -1118,7 +1118,7 @@ export const dynamicProductDetails = [
             {
                 id: 7,
                 title: "Happy Birthday",
-                src: "/images/products/Truffles/coconut.jpg",
+                src: "/images/products/jumbo/7.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -1140,7 +1140,7 @@ export const dynamicProductDetails = [
             {
                 id: 8,
                 title: "Choco Mood",
-                src: "/images/products/Truffles/coconut.jpg",
+                src: "/images/products/jumbo/8.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -1162,7 +1162,7 @@ export const dynamicProductDetails = [
             {
                 id: 9,
                 title: "Toffi-Tella",
-                src: "/images/products/Truffles/coconut.jpg",
+                src: "/images/products/jumbo/9.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -1184,7 +1184,7 @@ export const dynamicProductDetails = [
             {
                 id: 10,
                 title: "Double decker",
-                src: "/images/products/Truffles/coconut.jpg",
+                src: "/images/products/jumbo/10.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -1206,7 +1206,7 @@ export const dynamicProductDetails = [
             {
                 id: 11,
                 title: "Double decker (Milk Mawa)",
-                src: "/images/products/Truffles/coconut.jpg",
+                src: "/images/products/jumbo/11.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -1228,7 +1228,7 @@ export const dynamicProductDetails = [
             {
                 id: 12,
                 title: "Coco decker",
-                src: "/images/products/Truffles/coconut.jpg",
+                src: "/images/products/jumbo/12.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -1250,7 +1250,7 @@ export const dynamicProductDetails = [
             {
                 id: 13,
                 title: "Fruit Jam decker",
-                src: "/images/products/Truffles/coconut.jpg",
+                src: "/images/products/jumbo/13.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -1272,7 +1272,7 @@ export const dynamicProductDetails = [
             {
                 id: 14,
                 title: "Dairy decker",
-                src: "/images/products/Truffles/coconut.jpg",
+                src: "/images/products/jumbo/14.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -1294,7 +1294,7 @@ export const dynamicProductDetails = [
             {
                 id: 15,
                 title: "Rajmalai Bites",
-                src: "/images/products/Truffles/coconut.jpg",
+                src: "/images/products/jumbo/15.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -1316,7 +1316,7 @@ export const dynamicProductDetails = [
             {
                 id: 16,
                 title: "Rich Cream Fudge",
-                src: "/images/products/Truffles/coconut.jpg",
+                src: "/images/products/jumbo/16.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -1338,7 +1338,7 @@ export const dynamicProductDetails = [
             {
                 id: 17,
                 title: "Chox Star Bites",
-                src: "/images/products/Truffles/coconut.jpg",
+                src: "/images/products/jumbo/17.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -1360,7 +1360,7 @@ export const dynamicProductDetails = [
             {
                 id: 18,
                 title: "Milk Cake",
-                src: "/images/products/Truffles/coconut.jpg",
+                src: "/images/products/jumbo/18.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -1385,13 +1385,13 @@ export const dynamicProductDetails = [
         id: 8,
         itemName: "Premium Bar Toffee",
         itemSubTitle: "Indulge in the flavours of delicious & cream-filled truffles",
-        heroImg: "/images/products/Gifting-Range/int-hero-gift-box.jpg",
+        heroImg: "/images/products/ec/covere.jpg",
         slug: "premium-centre",
         productItemsList: [
             {
                 id: 1,
                 title: "Dairy Magix",
-                src: "/images/products/Truffles/assorted.jpg",
+                src: "/images/products/ec/1.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -1413,7 +1413,7 @@ export const dynamicProductDetails = [
             {
                 id: 2,
                 title: "Strawberry Magix",
-                src: "/images/products/Truffles/blackcurrant.jpg",
+                src: "/images/products/ec/2.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -1435,7 +1435,7 @@ export const dynamicProductDetails = [
             {
                 id: 3,
                 title: "Milk Magix",
-                src: "/images/products/Truffles/butterscoth.jpg",
+                src: "/images/products/ec/3.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -1457,7 +1457,7 @@ export const dynamicProductDetails = [
             {
                 id: 4,
                 title: "Milky Nutz",
-                src: "/images/products/Truffles/coffee.jpg",
+                src: "/images/products/ec/4.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -1476,151 +1476,20 @@ export const dynamicProductDetails = [
                     }
                 ]
             },
-            {
-                id: 5,
-                title: "Elaichi Bar",
-                src: "/images/products/Truffles/coconut.jpg",
-                itemSpecification: [
-                    {
-                        size: "225g",
-                        price: 110,
-                        pcs: 18
-                    },
-                    {
-                        size: "225g",
-                        price: 110,
-                        pcs: 18
-                    },
-                    {
-                        size: "225g",
-                        price: 110,
-                        pcs: 18
-                    }
-                ]
-            },
-            {
-                id: 6,
-                title: "Mango Frutoo",
-                src: "/images/products/Truffles/coconut.jpg",
-                itemSpecification: [
-                    {
-                        size: "225g",
-                        price: 110,
-                        pcs: 18
-                    },
-                    {
-                        size: "225g",
-                        price: 110,
-                        pcs: 18
-                    },
-                    {
-                        size: "225g",
-                        price: 110,
-                        pcs: 18
-                    }
-                ]
-            },
-            {
-                id: 7,
-                title: "Ice cream jelly toffee",
-                src: "/images/products/Truffles/coconut.jpg",
-                itemSpecification: [
-                    {
-                        size: "225g",
-                        price: 110,
-                        pcs: 18
-                    },
-                    {
-                        size: "225g",
-                        price: 110,
-                        pcs: 18
-                    },
-                    {
-                        size: "225g",
-                        price: 110,
-                        pcs: 18
-                    }
-                ]
-            },
-            {
-                id: 8,
-                title: "Elaichi",
-                src: "/images/products/Truffles/coconut.jpg",
-                itemSpecification: [
-                    {
-                        size: "225g",
-                        price: 110,
-                        pcs: 18
-                    },
-                    {
-                        size: "225g",
-                        price: 110,
-                        pcs: 18
-                    },
-                    {
-                        size: "225g",
-                        price: 110,
-                        pcs: 18
-                    }
-                ]
-            },
-            {
-                id: 9,
-                title: "Aam Papad",
-                src: "/images/products/Truffles/coconut.jpg",
-                itemSpecification: [
-                    {
-                        size: "225g",
-                        price: 110,
-                        pcs: 18
-                    },
-                    {
-                        size: "225g",
-                        price: 110,
-                        pcs: 18
-                    },
-                    {
-                        size: "225g",
-                        price: 110,
-                        pcs: 18
-                    }
-                ]
-            },
-            {
-                id: 10,
-                title: "Milk Bar",
-                src: "/images/products/Truffles/coconut.jpg",
-                itemSpecification: [
-                    {
-                        size: "225g",
-                        price: 110,
-                        pcs: 18
-                    },
-                    {
-                        size: "225g",
-                        price: 110,
-                        pcs: 18
-                    },
-                    {
-                        size: "225g",
-                        price: 110,
-                        pcs: 18
-                    }
-                ]
-            },
+
         ]
     },
     {
         id: 9,
         itemName: "Premium Butter Toffee",
         itemSubTitle: "Indulge in the flavours of delicious & cream-filled truffles",
-        heroImg: "/images/products/Gifting-Range/int-hero-gift-box.jpg",
+        heroImg: "/images/products/jumbo/coverpjt.jpg",
         slug: "premium-bar",
         productItemsList: [
             {
                 id: 1,
                 title: "Butter Toffees",
-                src: "/images/products/Truffles/assorted.jpg",
+                src: "/images/products/jumbo/1.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -1642,7 +1511,7 @@ export const dynamicProductDetails = [
             {
                 id: 2,
                 title: "Kaju Butter",
-                src: "/images/products/Truffles/blackcurrant.jpg",
+                src: "/images/products/jumbo/1.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -1664,7 +1533,7 @@ export const dynamicProductDetails = [
             {
                 id: 3,
                 title: "Coconut Butter",
-                src: "/images/products/Truffles/butterscoth.jpg",
+                src: "/images/products/jumbo/1.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -1686,7 +1555,7 @@ export const dynamicProductDetails = [
             {
                 id: 4,
                 title: "Rose Butter",
-                src: "/images/products/Truffles/coffee.jpg",
+                src: "/images/products/jumbo/1.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -1711,13 +1580,13 @@ export const dynamicProductDetails = [
         id: 10,
         itemName: "Premium Centre Filled Eclairs",
         itemSubTitle: "Indulge in the flavours of delicious & cream-filled truffles",
-        heroImg: "/images/products/Gifting-Range/int-hero-gift-box.jpg",
+        heroImg: "/images/products/jumbo/coverpjt.jpg",
         slug: "premium-butter",
         productItemsList: [
             {
                 id: 1,
                 title: "Eclairs",
-                src: "/images/products/Truffles/assorted.jpg",
+                src: "/images/products/jumbo/1.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -1739,7 +1608,7 @@ export const dynamicProductDetails = [
             {
                 id: 2,
                 title: "Milk Eclairs",
-                src: "/images/products/Truffles/blackcurrant.jpg",
+                src: "/images/products/jumbo/2.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -1761,7 +1630,7 @@ export const dynamicProductDetails = [
             {
                 id: 3,
                 title: "Eclairs (4 Flavous)",
-                src: "/images/products/Truffles/butterscoth.jpg",
+                src: "/images/products/jumbo/3.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -1783,7 +1652,7 @@ export const dynamicProductDetails = [
             {
                 id: 4,
                 title: "Fruit Chew",
-                src: "/images/products/Truffles/coffee.jpg",
+                src: "/images/products/jumbo/4.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -1805,7 +1674,7 @@ export const dynamicProductDetails = [
             {
                 id: 5,
                 title: "Coconut",
-                src: "/images/products/Truffles/coconut.jpg",
+                src: "/images/products/jumbo/5.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -1830,13 +1699,13 @@ export const dynamicProductDetails = [
         id: 11,
         itemName: "Premium Toffee",
         itemSubTitle: "Indulge in the flavours of delicious & cream-filled truffles",
-        heroImg: "/images/products/Gifting-Range/int-hero-gift-box.jpg",
+        heroImg: "/images/products/jumbo/coverpjt.jpg",
         slug: "premium-toffee",
         productItemsList: [
             {
                 id: 1,
                 title: "Doodh Malai",
-                src: "/images/products/Truffles/assorted.jpg",
+                src: "/images/products/jumbo/1.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -1858,7 +1727,7 @@ export const dynamicProductDetails = [
             {
                 id: 2,
                 title: "Dairy Splash",
-                src: "/images/products/Truffles/blackcurrant.jpg",
+                src: "/images/products/jumbo/2.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -1880,7 +1749,7 @@ export const dynamicProductDetails = [
             {
                 id: 3,
                 title: "Kesar Peda",
-                src: "/images/products/Truffles/butterscoth.jpg",
+                src: "/images/products/jumbo/3.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -1902,7 +1771,7 @@ export const dynamicProductDetails = [
             {
                 id: 4,
                 title: "Imly",
-                src: "/images/products/Truffles/coffee.jpg",
+                src: "/images/products/jumbo/5.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -1924,7 +1793,7 @@ export const dynamicProductDetails = [
             {
                 id: 5,
                 title: "Orange",
-                src: "/images/products/Truffles/coconut.jpg",
+                src: "/images/products/jumbo/6.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -1946,7 +1815,7 @@ export const dynamicProductDetails = [
             {
                 id: 6,
                 title: "Shahi Sharbat",
-                src: "/images/products/Truffles/coconut.jpg",
+                src: "/images/products/jumbo/7.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -1968,7 +1837,7 @@ export const dynamicProductDetails = [
             {
                 id: 7,
                 title: "Aam Papad",
-                src: "/images/products/Truffles/coconut.jpg",
+                src: "/images/products/jumbo/8.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -1990,7 +1859,7 @@ export const dynamicProductDetails = [
             {
                 id: 8,
                 title: "Milk Toffee",
-                src: "/images/products/Truffles/coconut.jpg",
+                src: "/images/products/jumbo/9.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -2012,7 +1881,7 @@ export const dynamicProductDetails = [
             {
                 id: 9,
                 title: "Coconut Barfi",
-                src: "/images/products/Truffles/coconut.jpg",
+                src: "/images/products/jumbo/10.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -2035,7 +1904,7 @@ export const dynamicProductDetails = [
             {
                 id: 11,
                 title: "MY Lady",
-                src: "/images/products/Truffles/coconut.jpg",
+                src: "/images/products/jumbo/1.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -2057,7 +1926,7 @@ export const dynamicProductDetails = [
             {
                 id: 12,
                 title: "Happy Birthday",
-                src: "/images/products/Truffles/coconut.jpg",
+                src: "/images/products/jumbo/1.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -2082,13 +1951,13 @@ export const dynamicProductDetails = [
         id: 12,
         itemName: "Premium Milky Roll Toffee",
         itemSubTitle: "Indulge in the flavours of delicious & cream-filled truffles",
-        heroImg: "/images/products/Gifting-Range/int-hero-gift-box.jpg",
+        heroImg: "/images/products/jumbo/coverpjt.jpg",
         slug: "premium-milky",
         productItemsList: [
             {
                 id: 1,
                 title: "Milky Rose Roll Toffee",
-                src: "/images/products/Truffles/assorted.jpg",
+                src: "/images/products/jumbo/1.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -2110,7 +1979,7 @@ export const dynamicProductDetails = [
             {
                 id: 2,
                 title: "Milky Coconut Roll Toffee",
-                src: "/images/products/Truffles/blackcurrant.jpg",
+                src: "/images/products/jumbo/1.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -2132,7 +2001,7 @@ export const dynamicProductDetails = [
             {
                 id: 3,
                 title: "Milky Kaju Roll Toffee",
-                src: "/images/products/Truffles/butterscoth.jpg",
+                src: "/images/products/jumbo/1.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -2154,7 +2023,7 @@ export const dynamicProductDetails = [
             {
                 id: 4,
                 title: "Milky Elaichi Roll Toffee",
-                src: "/images/products/Truffles/coffee.jpg",
+                src: "/images/products/jumbo/1.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -2177,7 +2046,7 @@ export const dynamicProductDetails = [
             {
                 id: 5,
                 title: "Milky Mango Roll Toffee",
-                src: "/images/products/Truffles/coconut.jpg",
+                src: "/images/products/jumbo/1.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -2199,7 +2068,7 @@ export const dynamicProductDetails = [
             {
                 id: 6,
                 title: "Milky Bonita Roll Toffee",
-                src: "/images/products/Truffles/coconut.jpg",
+                src: "/images/products/jumbo/1.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -2221,7 +2090,7 @@ export const dynamicProductDetails = [
             {
                 id: 7,
                 title: "Ghatagat",
-                src: "/images/products/Truffles/coconut.jpg",
+                src: "/images/products/jumbo/1.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -2243,7 +2112,7 @@ export const dynamicProductDetails = [
             {
                 id: 8,
                 title: "Truty Fruity",
-                src: "/images/products/Truffles/coconut.jpg",
+                src: "/images/products/jumbo/1.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -2268,13 +2137,13 @@ export const dynamicProductDetails = [
         id: 13,
         itemName: "Chew + Jelly Toffee",
         itemSubTitle: "Indulge in the flavours of delicious & cream-filled truffles",
-        heroImg: "/images/products/Gifting-Range/int-hero-gift-box.jpg",
+        heroImg: "/images/products/jumbo/coverpjt.jpg",
         slug: "jelly-toffee",
         productItemsList: [
             {
                 id: 1,
                 title: "Banana Chew",
-                src: "/images/products/Truffles/assorted.jpg",
+                src: "/images/products/jumbo/1.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -2296,7 +2165,7 @@ export const dynamicProductDetails = [
             {
                 id: 2,
                 title: "Strawberry Chew",
-                src: "/images/products/Truffles/blackcurrant.jpg",
+                src: "/images/products/jumbo/1.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -2318,7 +2187,7 @@ export const dynamicProductDetails = [
             {
                 id: 3,
                 title: "Orange Chew",
-                src: "/images/products/Truffles/butterscoth.jpg",
+                src: "/images/products/jumbo/1.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -2340,7 +2209,7 @@ export const dynamicProductDetails = [
             {
                 id: 4,
                 title: "Selfie",
-                src: "/images/products/Truffles/coffee.jpg",
+                src: "/images/products/jumbo/1.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -2362,7 +2231,7 @@ export const dynamicProductDetails = [
             {
                 id: 5,
                 title: "Coffee Toffee",
-                src: "/images/products/Truffles/coconut.jpg",
+                src: "/images/products/jumbo/1.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -2384,7 +2253,7 @@ export const dynamicProductDetails = [
             {
                 id: 6,
                 title: "Milk Jelly",
-                src: "/images/products/Truffles/coconut.jpg",
+                src: "/images/products/jumbo/1.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -2406,7 +2275,7 @@ export const dynamicProductDetails = [
             {
                 id: 7,
                 title: "Khatta Santra",
-                src: "/images/products/Truffles/coconut.jpg",
+                src: "/images/products/jumbo/1.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -2428,7 +2297,7 @@ export const dynamicProductDetails = [
             {
                 id: 8,
                 title: "Elaichi Jelly",
-                src: "/images/products/Truffles/coconut.jpg",
+                src: "/images/products/jumbo/1.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -2450,7 +2319,7 @@ export const dynamicProductDetails = [
             {
                 id: 9,
                 title: "Coconut Jelly",
-                src: "/images/products/Truffles/coconut.jpg",
+                src: "/images/products/jumbo/1.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -2475,13 +2344,13 @@ export const dynamicProductDetails = [
         id: 14,
         itemName: "Lollipops",
         itemSubTitle: "Indulge in the flavours of delicious & cream-filled truffles",
-        heroImg: "/images/products/Gifting-Range/int-hero-gift-box.jpg",
+        heroImg: "/images/products/jumbo/coverpjt.jpg",
         slug: "lollipops",
         productItemsList: [
             {
                 id: 1,
                 title: "Double Bubble Strawberry",
-                src: "/images/products/Truffles/assorted.jpg",
+                src: "/images/products/jumbo/1.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -2503,7 +2372,7 @@ export const dynamicProductDetails = [
             {
                 id: 2,
                 title: "Double Bubble Green Apple ",
-                src: "/images/products/Truffles/blackcurrant.jpg",
+                src: "/images/products/jumbo/1.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -2525,7 +2394,7 @@ export const dynamicProductDetails = [
             {
                 id: 3,
                 title: "Lacto Pop",
-                src: "/images/products/Truffles/butterscoth.jpg",
+                src: "/images/products/jumbo/1.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -2547,7 +2416,7 @@ export const dynamicProductDetails = [
             {
                 id: 4,
                 title: "Bubble Pop Strawberry",
-                src: "/images/products/Truffles/coffee.jpg",
+                src: "/images/products/jumbo/1.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -2569,7 +2438,7 @@ export const dynamicProductDetails = [
             {
                 id: 5,
                 title: "Bubble Pop Cola",
-                src: "/images/products/Truffles/coconut.jpg",
+                src: "/images/products/jumbo/1.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -2591,7 +2460,7 @@ export const dynamicProductDetails = [
             {
                 id: 6,
                 title: "Kings Pop",
-                src: "/images/products/Truffles/coconut.jpg",
+                src: "/images/products/jumbo/1.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -2613,7 +2482,7 @@ export const dynamicProductDetails = [
             {
                 id: 7,
                 title: "Bubble Pop Orange",
-                src: "/images/products/Truffles/coconut.jpg",
+                src: "/images/products/jumbo/1.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -2635,7 +2504,7 @@ export const dynamicProductDetails = [
             {
                 id: 8,
                 title: "Big Bon",
-                src: "/images/products/Truffles/coconut.jpg",
+                src: "/images/products/jumbo/1.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -2657,7 +2526,7 @@ export const dynamicProductDetails = [
             {
                 id: 9,
                 title: "Choco Caramel Pop",
-                src: "/images/products/Truffles/coconut.jpg",
+                src: "/images/products/jumbo/1.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -2679,7 +2548,7 @@ export const dynamicProductDetails = [
             {
                 id: 10,
                 title: "Lollipop Strawberry",
-                src: "/images/products/Truffles/coconut.jpg",
+                src: "/images/products/jumbo/1.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -2701,7 +2570,7 @@ export const dynamicProductDetails = [
             {
                 id: 11,
                 title: "Juby Pop",
-                src: "/images/products/Truffles/coconut.jpg",
+                src: "/images/products/jumbo/1.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
@@ -2723,7 +2592,7 @@ export const dynamicProductDetails = [
             {
                 id: 12,
                 title: "Yogurt Pop",
-                src: "/images/products/Truffles/coconut.jpg",
+                src: "/images/products/jumbo/1.jpg",
                 itemSpecification: [
                     {
                         size: "225g",
