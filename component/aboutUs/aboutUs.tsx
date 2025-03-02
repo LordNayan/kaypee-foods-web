@@ -41,29 +41,17 @@ const AboutUs = () => {
                     </Col>
                     <Col md={12} className="text-justify">
                       <SubTitle>
-                        A Truly Indulgent Chocolate Experience.
+                        A Truly Indulgent Sweet Experience.
                       </SubTitle>
                       <Paragraph>
-                        'Chocozay' is a family-owned chocolate manufacturing
-                        business started with the intent to spread happiness
-                        with quality products made from superior ingredients.
-                        The plant is designed with world-class machinery wherein
-                        we produce chocolate from scratch and then mould it into
-                        truffles and bars. These products are then packed using
-                        prime packing machines. We adhere to world-classfood
-                        manufacturing practices to maintain the level of hygiene
-                        required to make sure that our products reach customers
-                        in the best condition.
+                      We are a family-owned confectionery manufacturing company with a rich legacy dating back to 1965. Located at 22/3 Maharajpura Industrial Area, Gwalior (M.P.), India, we take pride in being a trusted name in the world of sweets and confectionery. Our journey began with a simple yet powerful vision: to spread joy and happiness through high-quality, delicious products crafted with care and precision.
+
+
                       </Paragraph>
                       <Paragraph>
-                        We are known in the market for our superior chocolate
-                        quality and great packaging, making our products
-                        suitable not only for consumption but also for gifting,
-                        be it personal gifting or corporate gifting. Our vision
-                        is to have customers all over the world consume our
-                        chocolate, not only for the first time but multiple
-                        times to create a long-lasting association with our
-                        brand 'Chocozay'.
+                      We operate through a diverse network of channel partners, agencies, and direct customers via online platforms, ensuring that our products are accessible to everyone. By leveraging multiple avenues, we strive to deliver our products to customers in a timely and efficient manner. We welcome partnerships with businesses of all sizes—small, medium, and large—and are committed to serving their unique needs with excellence.
+
+
                       </Paragraph>
                     </Col>
                   </Row>
