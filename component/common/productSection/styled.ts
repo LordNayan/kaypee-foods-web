@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import styled from 'styled-components';
 
 export const ProductsSection = styled.section`
@@ -105,4 +106,29 @@ export const StyledFigureCaptionSpace = styled.small`
 export const StyledFigureHeding = styled.h2`
   font-weight: 800;
   color: #313434;
+`;
+
+export const StyledTextBox = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+`;
+
+export const StyledTextForMore = styled.h3`
+    font-weight: 600;
+    font-size: 3vw;
+    color: #ffd700;
+    margin-bottom: 20px;
+`;
+
+
+export const StyleBtnMore = styled(Link)`
+  background: #313434 !important;
+  color: #fff !important;
+  padding: 16px 30px !important;
+  border: none !important;
+  font-size: 13px !important;
+  font-weight: 600 !important;
+  text-decoration: none;
 `;

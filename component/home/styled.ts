@@ -47,7 +47,8 @@ export const SlideSubTitleStyled = styled.h2`
   font-weight: 800;
   margin-bottom: 40px;
   @media screen and (max-width: 767px) {
-     font-size: 50px;
+    font-size: 50px;
+    margin-bottom: 20px;
   }
 `;
 

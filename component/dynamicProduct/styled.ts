@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import styled from 'styled-components';
 
 export const ProductMain = styled.main`
@@ -81,6 +82,7 @@ export const ProductsSection = styled.section`
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     padding: 100px 40px;
     padding-bottom: 20px;
     position: relative;
@@ -211,3 +213,28 @@ export const Table = styled.table`
     }
   }
 `
+
+export const StyledTextBox = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+`;
+
+export const StyledTextForMore = styled.h3`
+    font-weight: 600;
+    font-size: 3vw;
+    color: #ffd700;
+    margin-bottom: 20px;
+`;
+
+
+export const StyleBtnMore = styled(Link)`
+  background: #313434 !important;
+  color: #fff !important;
+  padding: 16px 30px !important;
+  border: none !important;
+  font-size: 13px !important;
+  font-weight: 600 !important;
+  text-decoration: none;
+`;
