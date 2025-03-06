@@ -31,37 +31,37 @@ const Home = () => {
     },
     {
       id: 2,
-      title: "Toffee mein Mithai ka Maza",
+      title: "Toffee mein Mithai ka maza",
       subtitle: "Rajmalai Bites",
       image: "./images/home/hero-slider/slide5.jpg",
     },
     {
       id: 3,
-      title: "Fruit Flavoured Toffee",
+      title: "Fruit Birthday Toffee",
       subtitle: "Happy Birthday",
       image: "./images/home/hero-slider/slide6.jpg",
     },
     {
       id: 4,
-      title: "Center Filled Fruit Flavoured Candy",
+      title: "Center Fruit Candy",
       subtitle: "Frut Bon",
       image: "./images/home/hero-slider/slide7.jpg",
     },
     {
       id: 5,
-      title: "Center Filled Rich & Creamy Lollipop",
+      title: "Center Rich & Creamy",
       subtitle: "Eclair Pop",
       image: "./images/home/hero-slider/slide8.jpg",
     },
     {
       id: 6,
-      title: "Asli doodh malai ka double maza",
+      title: "Asli doodh malai ka maza",
       subtitle: "Doodh Malai",
       image: "./images/home/hero-slider/slide9.jpg",
     },
     {
       id: 7,
-      title: "Center Filled with Real Coconut",
+      title: "Center Rich Real Coconut",
       subtitle: "Coco Crunch",
       image: "./images/home/hero-slider/slide10.jpg",
     },
@@ -146,7 +146,7 @@ const Home = () => {
                 >
                   <div style={{ padding: "0 22px" }}>
                    
-                  <SlideTitleStyled>-{slide.title}</SlideTitleStyled>
+                  <SlideTitleStyled>{slide.title}</SlideTitleStyled>
                   <SlideSubTitleStyled>{slide.subtitle}</SlideSubTitleStyled>
                     <Link href="/products">
                       {/* <SwipeButtonStyle>GET STARTED</SwipeButtonStyle> */}

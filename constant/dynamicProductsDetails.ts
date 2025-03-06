@@ -1,7 +1,7 @@
 export const dynamicProductDetails = [
     {
         id: 1,
-        itemName: "PREMIUM CANDY",
+        itemName: "Premium Candy",
         // itemSubTitle: "Indulge in the flavours of delicious & cream-filled truffles",
         heroImg: "/images/products/Premium-candy/coverpc.png",
         slug: "premium-candy",
@@ -208,7 +208,7 @@ export const dynamicProductDetails = [
     },
     {
         id: 2,
-        itemName: "PREMIUM Centre-Filled CANDY",
+        itemName: "Premium Fill Candy",
         heroImg: "/images/products/PCFC/coverpcf.jpg",
         slug: "filled-candy",
         productItemsList: [
@@ -436,7 +436,7 @@ export const dynamicProductDetails = [
     },
     {
         id: 3,
-        itemName: "Heart Centre-Filled CANDY",
+        itemName: "Heart Fill Candy",
         itemSubTitle: "Indulge in the flavours of delicious & cream-filled truffles",
         heroImg: "/images/products/hcfc/coverhcfc.jpg",
         slug: "heart-centre",
