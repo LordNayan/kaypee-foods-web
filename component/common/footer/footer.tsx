@@ -90,7 +90,7 @@ const Footer = () => {
                 getCommonAssets?.common?.socialMedia?.map((item) => (
                   <IconsStyle key={item?.id}>
                     <Link href={item?.iconLink} target="_blank">
-                      <FontAwesomeIcon icon={item?.iconSrc} size="xs" />
+                      <FontAwesomeIcon icon={item?.iconSrc} size="xl" />
                     </Link>
                   </IconsStyle>
                 ))}
