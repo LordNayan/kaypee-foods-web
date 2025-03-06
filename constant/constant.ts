@@ -63,19 +63,19 @@ export const getCommonAssets = {
                 id: 1,
                 imgSrc: productsImages?.product1,
                 imgLink: "/premium-candy",
-                imgAlt: "PREMIUM CANDY"
+                imgAlt: "Premium Candy"
             },
             {
                 id: 2,
                 imgSrc: productsImages?.product2,
                 imgLink: "/filled-candy",
-                imgAlt: "PREMIUM Centre-Filled CANDY"
+                imgAlt: "Premium Fill Candy"
             },
             {
                 id: 3,
                 imgSrc: productsImages?.product3,
                 imgLink: "/heart-centre",
-                imgAlt: "Heart Centre-Filled CANDY"
+                imgAlt: "Heart Fill Candy"
             },
             {
                 id: 4,

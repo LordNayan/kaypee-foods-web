@@ -48,7 +48,7 @@ export const ProductInner = styled.div`
 `;
 
 export const ProductTitle = styled.h2`
-  font-size: 6vw;
+  font-size: 4.5vw;
   color: #fff;
   display: block;
   font-weight: 800;

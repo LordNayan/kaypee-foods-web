@@ -170,7 +170,7 @@ const ContactUs = () => {
                     <Form.Group>
                       <StyledLabel>Your Message *</StyledLabel>
                       <StyledText
-                        style={{ marginBottom: "20px" }}
+                        style={{  }}
                         type="text"
                         name="message"
                         value={formik.values.message}

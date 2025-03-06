@@ -56,11 +56,11 @@ export const StyledText = styled(Form.Control)`
 `;
 
 export const Submit = styled.button`
-    margin-top: 94px;
+    margin-top: 44px;
     height: 54px;
     background: #313434;
     color: #fff;
-    padding: 0 30px;
+    padding: 0 70px;
     border: none;
     font-size: 13px;
     font-weight: 600;
