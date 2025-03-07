@@ -2,13 +2,13 @@ export const dynamicProductDetails = [
     {
         id: 1,
         itemName: "Premium Candy",
-        // itemSubTitle: "Indulge in the flavours of delicious & cream-filled truffles",
+        itemSubTitle: "Experience the finest premium candy, crafted for indulgence",
         heroImg: "/images/products/Premium-candy/coverpc.png",
         slug: "premium-candy",
         productItemsList: [
             {
                 id: 1,
-                title: "Double koffee",
+                title: "Averyday Gold",
                 src: "/images/products/Premium-candy/1.jpg",
                 itemSpecification: [
                     {
@@ -30,7 +30,7 @@ export const dynamicProductDetails = [
             },
             {
                 id: 2,
-                title: "Milkiss",
+                title: "Averyday Strawberry",
                 src: "/images/products/Premium-candy/2.jpg",
                 itemSpecification: [
                     {
@@ -52,7 +52,7 @@ export const dynamicProductDetails = [
             },
             {
                 id: 3,
-                title: "Averyday Strawberry",
+                title: "Coco Crunch",
                 src: "/images/products/Premium-candy/3.jpg",
                 itemSpecification: [
                     {
@@ -74,7 +74,7 @@ export const dynamicProductDetails = [
             },
             {
                 id: 4,
-                title: "Averyday Gold",
+                title: "Double Koffee",
                 src: "/images/products/Premium-candy/4.jpg",
                 itemSpecification: [
                     {
@@ -96,7 +96,7 @@ export const dynamicProductDetails = [
             },
             {
                 id: 5,
-                title: "Green Apple",
+                title: "Milkiss",
                 src: "/images/products/Premium-candy/5.jpg",
                 itemSpecification: [
                     {
@@ -209,12 +209,13 @@ export const dynamicProductDetails = [
     {
         id: 2,
         itemName: "Premium Fill Candy",
+        itemSubTitle: "A luscious treat with rich fillings, bringing joy in every delightful bite!",
         heroImg: "/images/products/PCFC/coverpcf.jpg",
         slug: "filled-candy",
         productItemsList: [
             {
                 id: 1,
-                title: "Creamy Coffee Gold",
+                title: "Creamy Caramel Original",
                 src: "/images/products/PCFC/1.jpg",
                 itemSpecification: [
                     {
@@ -236,7 +237,7 @@ export const dynamicProductDetails = [
             },
             {
                 id: 2,
-                title: "Creamy Caramel Original",
+                title: "Creamy Coffee Gold",
                 src: "/images/products/PCFC/2.jpg",
                 itemSpecification: [
                     {
@@ -258,7 +259,7 @@ export const dynamicProductDetails = [
             },
             {
                 id: 3,
-                title: "Lacto Milk Bon",
+                title: "Double Nariyal",
                 src: "/images/products/PCFC/3.jpg",
                 itemSpecification: [
                     {
@@ -280,7 +281,7 @@ export const dynamicProductDetails = [
             },
             {
                 id: 4,
-                title: "Double Nariyal",
+                title: "Eclair Crunch",
                 src: "/images/products/PCFC/4.jpg",
                 itemSpecification: [
                     {
@@ -302,7 +303,7 @@ export const dynamicProductDetails = [
             },
             {
                 id: 5,
-                title: "Eclair Crunch",
+                title: "Frut Bon",
                 src: "/images/products/PCFC/5.jpg",
                 itemSpecification: [
                     {
@@ -437,7 +438,7 @@ export const dynamicProductDetails = [
     {
         id: 3,
         itemName: "Heart Fill Candy",
-        itemSubTitle: "Indulge in the flavours of delicious & cream-filled truffles",
+        itemSubTitle: "Indulge in the flavours of delicious & cream-filled Candy",
         heroImg: "/images/products/hcfc/coverhcfc.jpg",
         slug: "heart-centre",
         productItemsList: [
@@ -465,7 +466,7 @@ export const dynamicProductDetails = [
             },
             {
                 id: 2,
-                title: "Real Love Strawberry",
+                title: "Real Love Green Apple",
                 src: "/images/products/hcfc/2.jpg",
                 itemSpecification: [
                     {
@@ -487,7 +488,7 @@ export const dynamicProductDetails = [
             },
             {
                 id: 3,
-                title: "Real Love Green Apple",
+                title: "Real Love Heart Candy",
                 src: "/images/products/hcfc/3.jpg",
                 itemSpecification: [
                     {
@@ -509,7 +510,7 @@ export const dynamicProductDetails = [
             },
             {
                 id: 4,
-                title: "Real Love Assorted",
+                title: "Real Love Strawberry",
                 src: "/images/products/hcfc/4.jpg",
                 itemSpecification: [
                     {
@@ -534,13 +535,13 @@ export const dynamicProductDetails = [
     {
         id: 4,
         itemName: "Center Filled Candy",
-        itemSubTitle: "Indulge in the flavours of delicious & cream-filled truffles",
+        itemSubTitle: " burst of flavor inside, delivering sweet surprises in every delicious bite.",
         heroImg: "/images/products/cfc/covercfc.jpg",
         slug: "center-filled",
         productItemsList: [
             {
                 id: 1,
-                title: "Coffee Crunch",
+                title: "Coconut Ball",
                 src: "/images/products/cfc/1.jpg",
                 itemSpecification: [
                     {
@@ -562,7 +563,7 @@ export const dynamicProductDetails = [
             },
             {
                 id: 2,
-                title: "Creamy Kharbooja",
+                title: "Coffee Crunch",
                 src: "/images/products/cfc/2.jpg",
                 itemSpecification: [
                     {
@@ -584,7 +585,7 @@ export const dynamicProductDetails = [
             },
             {
                 id: 3,
-                title: "Coconut Ball",
+                title: "Crazy Cola",
                 src: "/images/products/cfc/3.jpg",
                 itemSpecification: [
                     {
@@ -606,7 +607,7 @@ export const dynamicProductDetails = [
             },
             {
                 id: 4,
-                title: "Crazy Cola",
+                title: "Cream Ball",
                 src: "/images/products/cfc/4.jpg",
                 itemSpecification: [
                     {
@@ -628,7 +629,7 @@ export const dynamicProductDetails = [
             },
             {
                 id: 5,
-                title: "Cream Ball",
+                title: "Creamy Kharbooja",
                 src: "/images/products/cfc/5.jpg",
                 itemSpecification: [
                     {
@@ -653,7 +654,7 @@ export const dynamicProductDetails = [
     {
         id: 5,
         itemName: "Deposited Candy",
-        itemSubTitle: "Indulge in the flavours of delicious & cream-filled truffles",
+        itemSubTitle: "Precision-crafted sweetness, delivering consistent taste",
         heroImg: "/images/products/depo/coverd.jpg",
         slug: "deposited",
         productItemsList: [
@@ -681,7 +682,7 @@ export const dynamicProductDetails = [
             },
             {
                 id: 2,
-                title: "London Delights",
+                title: "Butter Caramel",
                 src: "/images/products/depo/2.jpg",
                 itemSpecification: [
                     {
@@ -703,7 +704,7 @@ export const dynamicProductDetails = [
             },
             {
                 id: 3,
-                title: "Milky Cream",
+                title: "Candyday",
                 src: "/images/products/depo/3.jpg",
                 itemSpecification: [
                     {
@@ -747,7 +748,7 @@ export const dynamicProductDetails = [
             },
             {
                 id: 5,
-                title: "Candyday",
+                title: "Kaccha Aam",
                 src: "/images/products/depo/5.jpg",
                 itemSpecification: [
                     {

@@ -59,7 +59,7 @@ export const ProductTitle = styled.h2`
 `;
 
 export const ProductSubTitle = styled.h6`
-  font-size: 20px;
+  font-size: 22px;
   color: #fff;
   display: block;
   font-family: "Poppins", sans-serif;
