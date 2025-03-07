@@ -67,7 +67,7 @@ const Home = () => {
     },
     {
       id: 8,
-      title: "Rich fruit & Cream lollipop",
+      title: "Rich Sweet Heart pop Candy",
       subtitle: "Sweet Heart Pop",
       image: "./images/home/hero-slider/slide11.jpg",
     },
