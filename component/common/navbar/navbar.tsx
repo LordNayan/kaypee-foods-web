@@ -34,7 +34,11 @@ const CustomNavbar = () => {
               {navigation?.map((item: any) => (
                 <StyledNavLink
                   key={item?.id}
-                  href={item?.link}
+                  href={
+                    item?.menu === "Catalogue"
+                      ? "/images/doc/kaypee-food-catalog.pdf"
+                      : item?.link
+                  }
                   target={item?.targetBlank ? "_blank" : undefined}
                 >
                   {item?.menu}
