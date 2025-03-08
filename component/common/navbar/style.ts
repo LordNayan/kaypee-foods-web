@@ -17,6 +17,7 @@ export const StyledNavbar = styled(Navbar)`
       @media screen and (max-width: 767px) {
         position: absolute;
         top: 14px;
+        right: 0px;
       }
     }
   }

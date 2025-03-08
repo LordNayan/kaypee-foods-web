@@ -3,7 +3,7 @@ export const dynamicProductDetails = [
         id: 1,
         itemName: "Premium Candy",
         itemSubTitle: "Experience the finest premium candy, crafted for indulgence",
-        heroImg: "/images/products/Premium-candy/coverpc.png",
+        heroImg: "/images/products/Premium-candy/coverpc.jpg",
         slug: "premium-candy",
         productItemsList: [
             {
@@ -208,7 +208,7 @@ export const dynamicProductDetails = [
     },
     {
         id: 2,
-        itemName: "Premium Fill Candy",
+        itemName: "Premium Center Filled",
         itemSubTitle: "A luscious treat with rich fillings, bringing joy in every delightful bite!",
         heroImg: "/images/products/PCFC/coverpcf.jpg",
         slug: "filled-candy",

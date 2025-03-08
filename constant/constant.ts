@@ -69,7 +69,7 @@ export const getCommonAssets = {
                 id: 2,
                 imgSrc: productsImages?.product2,
                 imgLink: "/filled-candy",
-                imgAlt: "Premium Fill Candy"
+                imgAlt: "Premium Center Filled"
             },
             {
                 id: 3,
