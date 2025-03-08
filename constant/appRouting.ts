@@ -1,18 +1,76 @@
 export const appRoutingConst = [
-    { slug: 'premium-candy', title: 'Truffles Delight', description: 'Delicious truffles for you.' },
-    { slug: 'filled-candy', title: 'Tasty Bites', description: 'Small bites, big flavors.' },
-    { slug: 'heart-centre', title: 'Chocolate Squares', description: 'Perfectly shaped chocolate squares.' },
-    { slug: 'center-filled', title: 'Crispy Wafer Rolls', description: 'Crunchy wafer rolls for snack time.' },
-    { slug: 'deposited', title: 'Chocolate Bars', description: 'Classic chocolate bars you love.' },
-    { slug: 'candy-spicy', title: 'Gift Boxes', description: 'Perfect gift boxes for any occasion.' },
-    { slug: 'premium-jumbo', title: 'Candy Spicy', description: 'Perfect gift boxes for any occasion.' },
-    { slug: 'premium-centre', title: 'Candy Spicy', description: 'Perfect gift boxes for any occasion.' },
-    { slug: 'premium-bar', title: 'Candy Spicy', description: 'Perfect gift boxes for any occasion.' },
-    { slug: 'premium-butter', title: 'Candy Spicy', description: 'Perfect gift boxes for any occasion.' },
-    { slug: 'premium-toffee', title: 'Candy Spicy', description: 'Perfect gift boxes for any occasion.' },
-    { slug: 'premium-milky', title: 'Candy Spicy', description: 'Perfect gift boxes for any occasion.' },
-    { slug: 'jelly-toffee', title: 'Candy Spicy', description: 'Perfect gift boxes for any occasion.' },
-    { slug: 'lollipops', title: 'Candy Spicy', description: 'Perfect gift boxes for any occasion.' },
+  {
+    slug: "premium-candy",
+    title: "Premium Candy",
+    description: "Experience the finest premium candy, crafted for indulgence",
+  },
+  {
+    slug: "filled-candy",
+    title: "Premium Center Filled Candy",
+    description:
+      "A luscious treat with rich fillings, bringing joy in every delightful bite!",
+  },
+  {
+    slug: "heart-centre",
+    title: "Heart Filled Candy",
+    description: "Indulge in the flavours of delicious & cream-filled Candy",
+  },
+  {
+    slug: "center-filled",
+    title: "Center Filled Candy",
+    description:
+      "Burst of flavor inside, delivering sweet surprises in every delicious bite.",
+  },
+  {
+    slug: "deposited",
+    title: "Deposited Candy",
+    description: "Precision-crafted sweetness, delivering consistent taste",
+  },
+  {
+    slug: "candy-spicy",
+    title: "Gift Boxes",
+    description: "Perfect gift boxes for any occasion.",
+  },
+  {
+    slug: "premium-jumbo",
+    title: "Candy Spicy",
+    description: "Perfect gift boxes for any occasion.",
+  },
+  {
+    slug: "premium-centre",
+    title: "Candy Spicy",
+    description: "Perfect gift boxes for any occasion.",
+  },
+  {
+    slug: "premium-bar",
+    title: "Candy Spicy",
+    description: "Perfect gift boxes for any occasion.",
+  },
+  {
+    slug: "premium-butter",
+    title: "Candy Spicy",
+    description: "Perfect gift boxes for any occasion.",
+  },
+  {
+    slug: "premium-toffee",
+    title: "Candy Spicy",
+    description: "Perfect gift boxes for any occasion.",
+  },
+  {
+    slug: "premium-milky",
+    title: "Candy Spicy",
+    description: "Perfect gift boxes for any occasion.",
+  },
+  {
+    slug: "jelly-toffee",
+    title: "Candy Spicy",
+    description: "Perfect gift boxes for any occasion.",
+  },
+  {
+    slug: "lollipops",
+    title: "Candy Spicy",
+    description: "Perfect gift boxes for any occasion.",
+  },
 ];
 
 export const navigation = [

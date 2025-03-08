@@ -37,117 +37,117 @@ export const socialMedialLinks = {
 }
 
 export const getCommonAssets = {
-    common: {
-        socialMedia: [
-            {
-                id: 1,
-                iconLink: socialMedialLinks?.facebook,
-                iconSrc: faFacebook,
-                iconAlt: "facebook-icon",
-            },
-            {
-                id: 2,
-                iconLink: socialMedialLinks?.instagram,
-                iconSrc: faInstagram,
-                iconAlt: "instagram-icon"
-            },
-            {
-                id: 3,
-                iconLink: socialMedialLinks?.twitter,
-                iconSrc: faYoutube,
-                iconAlt: "youtube-icon"
-            }
-        ],
-        products: [
-            {
-                id: 1,
-                imgSrc: productsImages?.product1,
-                imgLink: "/premium-candy",
-                imgAlt: "Premium Candy"
-            },
-            {
-                id: 2,
-                imgSrc: productsImages?.product2,
-                imgLink: "/filled-candy",
-                imgAlt: "Premium Center Filled"
-            },
-            {
-                id: 3,
-                imgSrc: productsImages?.product3,
-                imgLink: "/heart-centre",
-                imgAlt: "Heart Fill Candy"
-            },
-            {
-                id: 4,
-                imgSrc: productsImages?.product4,
-                imgLink: "/center-filled",
-                imgAlt: "Center Filled Candy"
-            },
-            {
-                id: 5,
-                imgSrc: productsImages?.product5,
-                imgLink: "/deposited",
-                imgAlt: "Deposited Candy"
-            },
-            {
-                id: 6,
-                imgSrc: productsImages?.product6,
-                imgLink: "/candy-spicy",
-                imgAlt: "Candy + Spicy Candy"
-            },
-            {
-                id: 7,
-                imgSrc: productsImages?.product7,
-                imgLink: "/premium-jumbo",
-                imgAlt: "Premium Jumbo Toffee"
-            },
-            {
-                id: 8,
-                imgSrc: productsImages?.product8,
-                imgLink: "/premium-centre",
-                imgAlt: "Premium Centre Filled Eclairs"
-            },
-            {
-                id: 9,
-                imgSrc: productsImages?.product9,
-                imgLink: "/premium-bar",
-                imgAlt: "Premium Bar Toffee"
-            },
-            {
-                id: 10,
-                imgSrc: productsImages?.product10,
-                imgLink: "/premium-butter",
-                imgAlt: "Premium Butter Toffee"
-            },
-            {
-                id: 11,
-                imgSrc: productsImages?.product11,
-                imgLink: "/premium-toffee",
-                imgAlt: "Premium Toffee"
-            },
-            {
-                id: 12,
-                imgSrc: productsImages?.product12,
-                imgLink: "/premium-milky",
-                imgAlt: "Premium Milky Roll Toffee"
-            },
-            {
-                id: 13,
-                imgSrc: productsImages?.product13,
-                imgLink: "/jelly-toffee",
-                imgAlt: "Chew + Jelly Toffee"
-            },
-            {
-                id: 14,
-                imgSrc: productsImages?.product14,
-                imgLink: "/lollipops",
-                imgAlt: "Lollipops"
-            },
-           
-            //Premium Butter Toffee
-        ]
-    }
-}
+  common: {
+    socialMedia: [
+      {
+        id: 1,
+        iconLink: socialMedialLinks?.facebook,
+        iconSrc: faFacebook,
+        iconAlt: "facebook-icon",
+      },
+      {
+        id: 2,
+        iconLink: socialMedialLinks?.instagram,
+        iconSrc: faInstagram,
+        iconAlt: "instagram-icon",
+      },
+      {
+        id: 3,
+        iconLink: socialMedialLinks?.twitter,
+        iconSrc: faYoutube,
+        iconAlt: "youtube-icon",
+      },
+    ],
+    products: [
+      {
+        id: 1,
+        imgSrc: productsImages?.product1,
+        imgLink: "/premium-candy",
+        imgAlt: "Premium Candy",
+      },
+      {
+        id: 2,
+        imgSrc: productsImages?.product2,
+        imgLink: "/filled-candy",
+        imgAlt: "Premium Center Filled",
+      },
+      {
+        id: 3,
+        imgSrc: productsImages?.product3,
+        imgLink: "/heart-centre",
+        imgAlt: "Heart Filled Candy",
+      },
+      {
+        id: 4,
+        imgSrc: productsImages?.product4,
+        imgLink: "/center-filled",
+        imgAlt: "Center Filled Candy",
+      },
+      {
+        id: 5,
+        imgSrc: productsImages?.product5,
+        imgLink: "/deposited",
+        imgAlt: "Deposited Candy",
+      },
+      {
+        id: 6,
+        imgSrc: productsImages?.product6,
+        imgLink: "/candy-spicy",
+        imgAlt: "Candy + Spicy Candy",
+      },
+      {
+        id: 7,
+        imgSrc: productsImages?.product7,
+        imgLink: "/premium-jumbo",
+        imgAlt: "Premium Jumbo Toffee",
+      },
+      {
+        id: 8,
+        imgSrc: productsImages?.product8,
+        imgLink: "/premium-centre",
+        imgAlt: "Premium Centre Filled Eclairs",
+      },
+      {
+        id: 9,
+        imgSrc: productsImages?.product9,
+        imgLink: "/premium-bar",
+        imgAlt: "Premium Bar Toffee",
+      },
+      {
+        id: 10,
+        imgSrc: productsImages?.product10,
+        imgLink: "/premium-butter",
+        imgAlt: "Premium Butter Toffee",
+      },
+      {
+        id: 11,
+        imgSrc: productsImages?.product11,
+        imgLink: "/premium-toffee",
+        imgAlt: "Premium Toffee",
+      },
+      {
+        id: 12,
+        imgSrc: productsImages?.product12,
+        imgLink: "/premium-milky",
+        imgAlt: "Premium Milky Roll Toffee",
+      },
+      {
+        id: 13,
+        imgSrc: productsImages?.product13,
+        imgLink: "/jelly-toffee",
+        imgAlt: "Chew + Jelly Toffee",
+      },
+      {
+        id: 14,
+        imgSrc: productsImages?.product14,
+        imgLink: "/lollipops",
+        imgAlt: "Lollipops",
+      },
+
+      //Premium Butter Toffee
+    ],
+  },
+};
 
 export const customHeaderSectionDetails = {
     "aboutUs": {

@@ -141,27 +141,22 @@ const Home = () => {
                     flexDirection: "column",
                     justifyContent: "center",
                     alignItems: "flex-start",
-                   
                   }}
                 >
                   <div style={{ padding: "0 22px" }}>
-                   
-                  <SlideTitleStyled>{slide.title}</SlideTitleStyled>
-                  <SlideSubTitleStyled>{slide.subtitle}</SlideSubTitleStyled>
+                    <SlideTitleStyled>{slide.title}</SlideTitleStyled>
+                    <SlideSubTitleStyled>{slide.subtitle}</SlideSubTitleStyled>
                     <Link href="/products">
                       {/* <SwipeButtonStyle>GET STARTED</SwipeButtonStyle> */}
-                      <SwipeButtonStyle
-                       style={{ }}
-                      >
+                      <SwipeButtonStyle style={{}}>
                         <StyledTextContainer>
                           <TextStyled>GET STARTED</TextStyled>
                           <TextHover>GET STARTED</TextHover>
                         </StyledTextContainer>
                       </SwipeButtonStyle>
-                     
                     </Link>
                   </div>
-                 {/* <BrandLogo>
+                  {/* <BrandLogo>
                     <img
                       src="./images/common/navbar/kaypee_logo.png"
                       alt="brand-logo"

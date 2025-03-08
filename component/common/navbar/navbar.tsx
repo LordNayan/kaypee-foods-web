@@ -35,7 +35,7 @@ const CustomNavbar = () => {
                 <StyledNavLink
                   key={item?.id}
                   href={item?.link}
-                  target={item?.targetBlank && "_blank"}
+                  target={item?.targetBlank ? "_blank" : undefined}
                 >
                   {item?.menu}
                 </StyledNavLink>
