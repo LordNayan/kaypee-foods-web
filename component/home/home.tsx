@@ -75,7 +75,6 @@ const Home = () => {
 
   return (
     <div>
-      <CustomNavbar />
       <StyledHeader>
         <Swiper
           modules={[Navigation, Pagination, Parallax]} // Autoplay

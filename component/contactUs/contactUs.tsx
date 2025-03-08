@@ -86,7 +86,7 @@ const ContactUs = () => {
       >
         <div className="contact-box">
           <h6>{title}</h6>
-          <p>{content}</p>
+          <div className="paragraph">{content}</div>
         </div>
       </ContactBoxContainer>
     );
@@ -104,7 +104,10 @@ const ContactUs = () => {
                   <Title>CONTACT FORM</Title>
                   <SubTitle>If you have any questions just ask us</SubTitle>
                   <ContactDiv>
-                    <img src="/images/common/contactus/whatsapp-img.png" alt="whatsapp-img" />
+                    <img
+                      src="/images/common/contactus/whatsapp-img.png"
+                      alt="whatsapp-img"
+                    />
                   </ContactDiv>
                 </Col>
                 <Col md={6} className="mt-4">
@@ -170,7 +173,7 @@ const ContactUs = () => {
                     <Form.Group>
                       <StyledLabel>Your Message *</StyledLabel>
                       <StyledText
-                        style={{  }}
+                        style={{}}
                         type="text"
                         name="message"
                         value={formik.values.message}
