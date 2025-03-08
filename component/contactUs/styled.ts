@@ -84,43 +84,50 @@ export const GetInTouchWrapper = styled.div`
 `;
 
 export const GetInTitle = styled.div`
-    width: 100%;
-    float: left;
-    margin-bottom: 40px;
-    margin-top: 10px;
+  width: 100%;
+  float: left;
+  margin-bottom: 40px;
+  margin-top: 10px;
+  font-color: black;
 `;
 
 export const GetInTouchHeading = styled.h3`
-    font-family: "Poppins", sans-serif;
-    font-size: 38px;
+  font-family: "Poppins", sans-serif;
+  font-size: 38px;
+  color: black;
 `;
 
-
 export const ContactBoxContainer = styled.div`
-.contact-box {
-  background: #f8f9fa; /* Light background */
-  margin-bottom: 20px;
+  .contact-box {
+    background: #f8f9fa; /* Light background */
+    margin-bottom: 20px;
 
-  h6 {
-    margin-bottom: 10px;
-    font-size: 16px;
-    font-weight: bold;
-    color: #313434;
-  }
+    h6 {
+      margin-bottom: 10px;
+      font-size: 16px;
+      font-weight: bold;
+      color: #313434;
+    }
 
-  p {
-    line-height: 30px;
-    font-size: 18px;
-    color: #8f999a;
-  }
+    p {
+      line-height: 30px;
+      font-size: 18px;
+      color: #8f999a;
+    }
 
-  a {
-    color: #8f999a;
-    text-decoration: none;
-    margin-bottom: 30px;
-    &:hover {
-      text-decoration: underline;
+    .paragraph {
+      line-height: 30px;
+      font-size: 18px;
+      color: #8f999a;
+    }
+
+    a {
+      color: #8f999a;
+      text-decoration: none;
+      margin-bottom: 30px;
+      &:hover {
+        text-decoration: underline;
+      }
     }
   }
-}
 `;

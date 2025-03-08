@@ -8,6 +8,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/parallax';
+import CustomNavbar from "@/component/common/navbar/navbar";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -40,9 +41,8 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${poppins.className}`}
       >
-        <Suspense fallback={<Loader />}>
-          {children}
-        </Suspense>
+        <CustomNavbar></CustomNavbar>
+        <Suspense fallback={<Loader />}>{children}</Suspense>
       </body>
     </html>
   );
