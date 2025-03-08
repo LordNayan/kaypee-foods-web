@@ -8,7 +8,7 @@ export const socialMedialIcons = {
 
 export const productsImages = {
     product1: "/images/common/products/Premiumcandy1.jpg",
-    product2: "/images/common/products/Premiumcenterf.jpg",
+    product2: "/images/common/products/Premiumcfc.jpg",
     product3: "/images/common/products/Heartcentre.jpg",
     product4: "/images/common/products/CentreFilled.jpg",
     product5: "/images/common/products/Deposited.jpg",
