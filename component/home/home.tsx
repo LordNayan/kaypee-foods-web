@@ -77,7 +77,7 @@ const Home = () => {
     <div>
       <StyledHeader>
         <Swiper
-          modules={[Navigation, Pagination, Parallax]} // Autoplay
+          modules={[Navigation, Pagination, Parallax, Autoplay]} // Autoplay
           // modules={[Navigation, Pagination, Parallax, Autoplay]} // Autoplay
           navigation={{
             nextEl: ".swiper-button-next",
