@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import Image from "next/image";
+import { useState, useEffect, useRef } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import { navigation } from "@/constant/appRouting";
 import FramerMotionWrap from "../framerMotionWrap/framerMotionWrap";
@@ -13,9 +14,29 @@ import {
 } from "./style";
 
 const CustomNavbar = () => {
+  const [expanded, setExpanded] = useState(false); 
+  const navRef = useRef(null); 
+
+  // Close navbar when clicking outside
+  useEffect(() => {
+    function handleClickOutside(event: MouseEvent) {
+      if (navRef.current && !(navRef.current as HTMLElement).contains(event.target as Node)) {
+        setExpanded(false); 
+      }
+    }
+
+    if (expanded) {
+      document.addEventListener("mousedown", handleClickOutside);
+    }
+
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [expanded]);
+
   return (
     <FramerMotionWrap>
-      <StyledNavbar expand="lg" collapseOnSelect>
+      <StyledNavbar expand="lg" expanded={expanded} ref={navRef} collapseOnSelect>
         <Container>
           <Logo>
             <Link href="/">
@@ -28,7 +49,12 @@ const CustomNavbar = () => {
             </Link>
           </Logo>
 
-          <Navbar.Toggle aria-controls="main-nav" />
+          {/* Toggle Button */}
+          <Navbar.Toggle
+            aria-controls="main-nav"
+            onClick={() => setExpanded(!expanded)} 
+          />
+
           <Navbar.Collapse id="main-nav">
             <Nav className="ms-auto">
               {navigation?.map((item: any) => (
@@ -40,6 +66,7 @@ const CustomNavbar = () => {
                       : item?.link
                   }
                   target={item?.targetBlank ? "_blank" : undefined}
+                  onClick={() => setExpanded(false)} // Close navbar on click
                 >
                   {item?.menu}
                 </StyledNavLink>
