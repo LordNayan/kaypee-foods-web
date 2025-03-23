@@ -34,6 +34,20 @@ const CustomNavbar = () => {
     };
   }, [expanded]);
 
+  useEffect(() => {
+    function handleScroll() {
+      if (expanded) {
+        setExpanded(false); // Close navbar on scroll
+      }
+    }
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, [expanded]);
+
   return (
     <FramerMotionWrap>
       <StyledNavbar expand="lg" expanded={expanded} ref={navRef} collapseOnSelect>
