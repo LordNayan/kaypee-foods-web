@@ -9,7 +9,6 @@ export const StyledHeader = styled.header`
     content: "";
     width: 60%;
     height: 20px;
-    background: #f03a37;
     position: absolute;
     right: 0;
     top: 0;
@@ -19,7 +18,6 @@ export const StyledHeader = styled.header`
     content: "";
     width: 60%;
     height: 70px;
-    background: #f03a37;
     position: absolute;
     left: 40px;
     bottom: 0;

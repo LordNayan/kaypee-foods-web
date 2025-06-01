@@ -8,7 +8,6 @@ import Link from "next/link";
 import { Container } from "react-bootstrap";
 import Footer from "../common/footer/footer";
 import {
-  BrandLogo,
   HomeMain,
   SlideSubTitleStyled,
   SlideTitleStyled,
