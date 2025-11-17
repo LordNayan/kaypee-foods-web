@@ -221,14 +221,14 @@ const ContactUs = () => {
                     content={
                       <>
                         <b>KAYPEE FOOD PRODUCTS</b>
-                        <br />
-                        B22/3, Pinto Park,
-                        <br />
-                        Industrial Area,
-                        <br />
-                        Maharajpura, Gwalior,
-                        <br />
-                        Madhya Pradesh 474004
+                      <br />
+                      B-22/3,
+                      <br />
+                      Maharajpura Industrial Area,
+                      <br />
+                      Gwalior,
+                      <br />
+                      Madhya Pradesh, 474005
                       </>
                     }
                   />
@@ -238,13 +238,13 @@ const ContactUs = () => {
                       <>
                         <b>KAYPEE FOOD PRODUCTS</b>
                         <br />
-                        B22/3, Pinto Park,
+                        B-22/3,
                         <br />
-                        Industrial Area,
+                        Maharajpura Industrial Area,
                         <br />
-                        Maharajpura, Gwalior,
+                        Gwalior,
                         <br />
-                        Madhya Pradesh 474004
+                        Madhya Pradesh, 474005
                       </>
                     }
                   />

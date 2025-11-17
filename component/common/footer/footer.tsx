@@ -33,13 +33,13 @@ const Footer = () => {
               <FooterBody>
                 <FooterBodyTitle>KAYPEE FOOD PRODUCTS</FooterBodyTitle>
                 <br />
-                B22/3, Pinto Park,
+                B-22/3,
                 <br />
-                Industrial Area,
+                Maharajpura Industrial Area,
                 <br />
-                Maharajpura, Gwalior,
+                Gwalior,
                 <br />
-                Madhya Pradesh 474004
+                Madhya Pradesh, 474005
               </FooterBody>
             </ContentBox>
             <ContentBox
@@ -51,13 +51,13 @@ const Footer = () => {
               <FooterBody>
                 <FooterBodyTitle>KAYPEE FOOD PRODUCTS</FooterBodyTitle>
                 <br />
-                B22/3, Pinto Park,
+                B-22/3,
                 <br />
-                Industrial Area,
+                Maharajpura Industrial Area,
                 <br />
-                Maharajpura, Gwalior,
+                Gwalior,
                 <br />
-                Madhya Pradesh 474004
+                Madhya Pradesh, 474005
               </FooterBody>
             </ContentBox>
             <ContentBox
