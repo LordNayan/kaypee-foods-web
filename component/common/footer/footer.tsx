@@ -67,18 +67,13 @@ const Footer = () => {
             >
               <FooterTitle>GET IN TOUCH</FooterTitle>
               <FooterBody>
-                <FooterBodyAnchor href="mailto:kaypeefood@gmail.com">
-                  kaypeefood@gmail.com
+                <FooterBodyAnchor href="mailto:admin@kaypeefood.com">
+                  admin@kaypeefood.com
                 </FooterBodyAnchor>
               </FooterBody>
               <FooterBody>
-                <FooterBodyAnchor href="tel:917879747859">
-                  +91 78797 47859
-                </FooterBodyAnchor>
-              </FooterBody>
-              <FooterBody>
-                <FooterBodyAnchor href="tel:917999570646">
-                  +91 79995 70646
+                <FooterBodyAnchor href="tel:919343698906">
+                  +91 93436 98906
                 </FooterBodyAnchor>
               </FooterBody>
             </ContentBox>

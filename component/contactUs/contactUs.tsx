@@ -252,10 +252,10 @@ const ContactUs = () => {
                     title="LET'S TALK"
                     content={
                       <>
-                        <a href="tel:919833467323">+917879747859</a> <br />
+                        <a href="tel:919343698906">+91 93436 98906</a> <br />
                         <h6 style={{ marginTop: "30px" }}>REACH US</h6>
-                        <a href="mailto:kaypeefood@gmail.com">
-                          kaypeefood@gmail.com
+                        <a href="mailto:admin@kaypeefood.com">
+                          admin@kaypeefood.com
                         </a>
                       </>
                     }
