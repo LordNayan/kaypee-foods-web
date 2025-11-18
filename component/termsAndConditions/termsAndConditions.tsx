@@ -20,7 +20,6 @@ import FramerMotionWrap from "../common/framerMotionWrap/framerMotionWrap";
 const TermsAndConditions = () => {
   return (
     <div>
-      <HeaderSection pageDetails={customHeaderSectionDetails?.termsAndConditions} />
       <FramerMotionWrap>
         <TermsMain>
           <TermsContentSection>
@@ -29,15 +28,15 @@ const TermsAndConditions = () => {
                 <Col xs={12}>
                   <TermsTitle>Terms and Conditions</TermsTitle>
                   <Paragraph>
-                    Welcome to Kaypee!
+                    Welcome to Kaypee food products!
                   </Paragraph>
                   <Paragraph>
                     These terms and conditions outline the rules and regulations
-                    for the use of Kaypee's Website.
+                    for the use of Kaypee food products Website.
                   </Paragraph>
                   <Paragraph>
                     By accessing this website we assume you accept these terms
-                    and conditions. Do not continue to use Kaypee if you do not
+                    and conditions. Do not continue to use Kaypee food products if you do not
                     agree to take all of the terms and conditions stated on this
                     page.
                   </Paragraph>
@@ -66,8 +65,8 @@ const TermsAndConditions = () => {
                 <Col xs={12}>
                   <SectionTitle>Cookies</SectionTitle>
                   <Paragraph>
-                    We employ the use of cookies. By accessing Kaypee, you agreed
-                    to use cookies in agreement with Kaypee's Privacy Policy.
+                    We employ the use of cookies. By accessing Kaypee food products, you agreed
+                    to use cookies in agreement with Kaypee food products's Privacy Policy.
                   </Paragraph>
                   <Paragraph>
                     Most interactive websites use cookies to let us retrieve the
@@ -83,34 +82,34 @@ const TermsAndConditions = () => {
                 <Col xs={12}>
                   <SectionTitle>License</SectionTitle>
                   <Paragraph>
-                    Unless otherwise stated, Kaypee and/or its licensors own the
-                    intellectual property rights for all material on Kaypee. All
+                    Unless otherwise stated, Kaypee food products and/or its licensors own the
+                    intellectual property rights for all material on Kaypee food products. All
                     intellectual property rights are reserved. You may access
-                    this from Kaypee for your own personal use subjected to
+                    this from Kaypee food products for your own personal use subjected to
                     restrictions set in these terms and conditions.
                   </Paragraph>
                   <Paragraph>You must not:</Paragraph>
                   <List>
-                    <ListItem>Republish material from Kaypee</ListItem>
-                    <ListItem>Sell, rent or sub-license material from Kaypee</ListItem>
-                    <ListItem>Reproduce, duplicate or copy material from Kaypee</ListItem>
-                    <ListItem>Redistribute content from Kaypee</ListItem>
+                    <ListItem>Republish material from Kaypee food products</ListItem>
+                    <ListItem>Sell, rent or sub-license material from Kaypee food products</ListItem>
+                    <ListItem>Reproduce, duplicate or copy material from Kaypee food products</ListItem>
+                    <ListItem>Redistribute content from Kaypee food products</ListItem>
                   </List>
                   <Paragraph>
                     Parts of this website offer an opportunity for users to post
                     and exchange opinions and information in certain areas of the
-                    website. Kaypee does not filter, edit, publish or review
+                    website. Kaypee food products does not filter, edit, publish or review
                     Comments prior to their presence on the website. Comments do
-                    not reflect the views and opinions of Kaypee, its agents
+                    not reflect the views and opinions of Kaypee food products, its agents
                     and/or affiliates. Comments reflect the views and opinions of
                     the person who post their views and opinions. To the extent
-                    permitted by applicable laws, Kaypee shall not be liable for
+                    permitted by applicable laws, Kaypee food products shall not be liable for
                     the Comments or for any liability, damages or expenses caused
                     and/or suffered as a result of any use of and/or posting of
                     and/or appearance of the Comments on this website.
                   </Paragraph>
                   <Paragraph>
-                    Kaypee reserves the right to monitor all Comments and to
+                    Kaypee food products reserves the right to monitor all Comments and to
                     remove any Comments which can be considered inappropriate,
                     offensive or causes breach of these Terms and Conditions.
                   </Paragraph>
@@ -137,7 +136,7 @@ const TermsAndConditions = () => {
                     </ListItem>
                   </List>
                   <Paragraph>
-                    You hereby grant Kaypee a non-exclusive license to use,
+                    You hereby grant Kaypee food products a non-exclusive license to use,
                     reproduce, edit and authorize others to use, reproduce and
                     edit any of your Comments in any and all forms, formats or
                     media.
@@ -202,7 +201,7 @@ const TermsAndConditions = () => {
                     to ourselves or to our accredited businesses; (b) the
                     organization does not have any negative records with us; (c)
                     the benefit to us from the visibility of the hyperlink
-                    compensates the absence of Kaypee; and (d) the link is in the
+                    compensates the absence of Kaypee food products; and (d) the link is in the
                     context of general resource information.
                   </Paragraph>
                   <Paragraph>
@@ -215,7 +214,7 @@ const TermsAndConditions = () => {
                   <Paragraph>
                     If you are one of the organizations listed in paragraph 2
                     above and are interested in linking to our website, you must
-                    inform us by sending an e-mail to Kaypee. Please include your
+                    inform us by sending an e-mail to Kaypee food products. Please include your
                     name, your organization name, contact information as well as
                     the URL of your site, a list of any URLs from which you intend
                     to link to our Website, and a list of the URLs on our site to
@@ -237,7 +236,7 @@ const TermsAndConditions = () => {
                     </ListItem>
                   </List>
                   <Paragraph>
-                    No use of Kaypee's logo or other artwork will be allowed for
+                    No use of Kaypee food products logo or other artwork will be allowed for
                     linking absent a trademark license agreement.
                   </Paragraph>
                 </Col>

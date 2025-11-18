@@ -6,7 +6,6 @@ export const PrivacyMain = styled.main`
   display: flex;
   flex-wrap: wrap;
   position: relative;
-  margin-top: 15vh;
 `;
 
 export const PrivacyContentSection = styled.section`
@@ -20,6 +19,7 @@ export const PrivacyTitle = styled.h1`
   font-size: 3vw;
   color: #323434;
   margin-bottom: 50px;
+  margin-top: 10vh;
   text-align: center;
   @media screen and (max-width: 767px) {
     font-size: 7vw;
