@@ -76,6 +76,13 @@ const Footer = () => {
                   +91 93436 98906
                 </FooterBodyAnchor>
               </FooterBody>
+              <FooterBody>
+                <Link href="/privacy-policy" passHref legacyBehavior>
+                  <FooterBodyAnchor>
+                    Privacy Policy
+                  </FooterBodyAnchor>
+                </Link>
+              </FooterBody>
             </ContentBox>
           </FooterContainer>
           <SubFooter>

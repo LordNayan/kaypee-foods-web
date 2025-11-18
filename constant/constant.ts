@@ -165,5 +165,9 @@ export const customHeaderSectionDetails = {
     "contactUs": {
         title: "Contact Us",
         heroImg: heroSectionBgImages?.contactUs
+    },
+    "privacyPolicy": {
+        title: "Privacy Policy",
+        heroImg: heroSectionBgImages?.aboutUs
     }
 }
