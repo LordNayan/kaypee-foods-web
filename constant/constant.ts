@@ -169,5 +169,9 @@ export const customHeaderSectionDetails = {
     "privacyPolicy": {
         title: "Privacy Policy",
         heroImg: heroSectionBgImages?.aboutUs
+    },
+    "termsAndConditions": {
+        title: "Terms & Conditions",
+        heroImg: heroSectionBgImages?.aboutUs
     }
 }

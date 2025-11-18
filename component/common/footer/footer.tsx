@@ -83,6 +83,13 @@ const Footer = () => {
                   </FooterBodyAnchor>
                 </Link>
               </FooterBody>
+              <FooterBody>
+                <Link href="/terms-and-conditions" passHref legacyBehavior>
+                  <FooterBodyAnchor>
+                    Terms & Conditions
+                  </FooterBodyAnchor>
+                </Link>
+              </FooterBody>
             </ContentBox>
           </FooterContainer>
           <SubFooter>

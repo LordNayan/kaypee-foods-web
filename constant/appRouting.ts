@@ -116,11 +116,12 @@ export const navigation = [
     link: "/privacy-policy",
     targetBlank: false,
     mobileOnly: true,
+  },
+  {
+    id: 8,
+    menu: "Terms & Conditions",
+    link: "/terms-and-conditions",
+    targetBlank: false,
+    mobileOnly: true,
   }
-  //   {
-  //   id: 6,
-  //   menu: "Contact Us",
-  //   link: "/contact-us",
-  //   targetBlank: false,
-  // }
 ]
