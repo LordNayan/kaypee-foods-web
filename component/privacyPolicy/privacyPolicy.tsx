@@ -25,13 +25,13 @@ const PrivacyPolicy = () => {
                 <Col xs={12}>
                   <PrivacyTitle>Privacy Policy</PrivacyTitle>
                   <Paragraph>
-                    Kaypee Confectionery respects your privacy. This Privacy
+                    Kaypee food products respects your privacy. This Privacy
                     Policy provides succinctly the manner your data is
-                    collected and used by Kaypee Confectionery on the Site. As
+                    collected and used by Kaypee food products on the Site. As
                     a visitor to the Site/ Customer, you are advised to please
                     read the Privacy Policy carefully. By accessing the services
                     provided by the Site you agree to the collection and use of
-                    your data by Kaypee in the manner provided in this Privacy
+                    your data by Kaypee food products in the manner provided in this Privacy
                     Policy.
                   </Paragraph>
                 </Col>
@@ -44,7 +44,7 @@ const PrivacyPolicy = () => {
                   </SectionTitle>
                   <Paragraph>
                     As part of the registration process on the Site, Kaypee
-                    Confectionery may collect the following personally
+                    food products may collect the following personally
                     identifiable information about you: Name including first and
                     last name, alternate email address, mobile phone number and
                     contact details, Postal code, address, etc.) and information
@@ -59,11 +59,11 @@ const PrivacyPolicy = () => {
                 <Col xs={12}>
                   <SectionTitle>How do we Collect the Information?</SectionTitle>
                   <Paragraph>
-                    Kaypee Confectionery will collect personally identifiable
+                    Kaypee food products will collect personally identifiable
                     information about you only as part of a voluntary
                     registration process, online survey or any combination
                     thereof. The Site may contain links to other Websites.
-                    Kaypee Confectionery is not responsible for the privacy
+                    Kaypee food products is not responsible for the privacy
                     practices of such Web sites that it does not own, manage or
                     control. The Site and third-party vendors, including Google,
                     use first-party cookies (such as the Google Analytics
@@ -78,20 +78,20 @@ const PrivacyPolicy = () => {
                 <Col xs={12}>
                   <SectionTitle>How is information used?</SectionTitle>
                   <Paragraph>
-                    Kaypee Confectionery will use your personal information to
+                    Kaypee food products will use your personal information to
                     provide personalized features to you on the Site and to
                     provide promotional offers to you through the Site and other
-                    channels. Kaypee Confectionery will also provide this
+                    channels. Kaypee food products will also provide this
                     information to its business associates and partners to get
                     in touch with you when necessary to provide the services
-                    requested by you. Kaypee Confectionery will use this
+                    requested by you. Kaypee food products will use this
                     information to preserve transaction history as governed by
-                    existing law or policy. Kaypee Confectionery may also use
+                    existing law or policy. Kaypee food products may also use
                     contact information internally to direct its efforts for
                     product improvement, to contact you as a survey respondent,
                     to notify you if you win any contest; and send you
                     promotional materials from its contest sponsors or
-                    advertisers. Kaypee Confectionery will also use this
+                    advertisers. Kaypee food products will also use this
                     information to serve you various promotional and advertising
                     materials via display advertisements through the Google Ad
                     network on third-party websites. You can opt out of Google
@@ -107,16 +107,16 @@ const PrivacyPolicy = () => {
                     With whom will your information be shared?
                   </SectionTitle>
                   <Paragraph>
-                    Kaypee Confectionery will not use your financial information
+                    Kaypee food products will not use your financial information
                     for any purpose other than to complete a transaction with
-                    you. Kaypee Confectionery does not rent, sell or share your
+                    you. Kaypee food products does not rent, sell or share your
                     personal information and will not disclose any of your
                     personally identifiable information to third parties. In
                     cases where it has your permission to provide products or
                     services you've requested and such information is necessary,
-                    the information may be shared with Kaypee Confectionery's
+                    the information may be shared with Kaypee food products's
                     business associates and partners. In addition Kaypee
-                    Confectionery may use this information for promotional
+                    food products may use this information for promotional
                     offers, to help investigate, prevent or take action
                     regarding unlawful and illegal activities, suspected fraud,
                     potential threat to the safety or security of any person,
