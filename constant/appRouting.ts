@@ -109,5 +109,19 @@ export const navigation = [
     menu: "Contact Us",
     link: "/contact-us",
     targetBlank: false,
+  },
+  {
+    id: 7,
+    menu: "Privacy Policy",
+    link: "/privacy-policy",
+    targetBlank: false,
+    mobileOnly: true,
+  },
+  {
+    id: 8,
+    menu: "Terms & Conditions",
+    link: "/terms-and-conditions",
+    targetBlank: false,
+    mobileOnly: true,
   }
 ]

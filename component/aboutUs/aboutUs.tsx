@@ -44,7 +44,7 @@ const AboutUs = () => {
                         A Truly Indulgent Sweet Experience.
                       </SubTitle>
                       <Paragraph>
-                      We are a family-owned confectionery manufacturing company with a rich legacy dating back to 1965. Located at 22/3 Maharajpura Industrial Area, Gwalior (M.P.), India, we take pride in being a trusted name in the world of sweets and confectionery. Our journey began with a simple yet powerful vision: to spread joy and happiness through high-quality, delicious products crafted with care and precision.
+                      We are a family-owned food products manufacturing company with a rich legacy dating back to 1965. Located at 22/3 Maharajpura Industrial Area, Gwalior (M.P.), India, we take pride in being a trusted name in the world of sweets and confectionery. Our journey began with a simple yet powerful vision: to spread joy and happiness through high-quality, delicious products crafted with care and precision.
 
 
                       </Paragraph>

@@ -46,11 +46,18 @@ export const StyledNavLink = styled(Link)`
   padding-left: 0.5rem;
   font-family: "Poppins", sans-serif;
   font-weight: 800;
-    @media screen and (max-width: 767px) {
-        color: #000000;
-        background-color: #fff;
-        padding: .5rem 1rem;
+  
+  &.mobile-only {
+    display: none;
+    @media screen and (max-width: 991px) {
+      display: block;
     }
+  }
+  
+  @media screen and (max-width: 767px) {
+    color: #000000;
+    background-color: #fff;
+    padding: .5rem 1rem;
   }
 `;
 
