@@ -81,6 +81,7 @@ const CustomNavbar = () => {
                   }
                   target={item?.targetBlank ? "_blank" : undefined}
                   onClick={() => setExpanded(false)} // Close navbar on click
+                  className={item?.mobileOnly ? "mobile-only" : ""}
                 >
                   {item?.menu}
                 </StyledNavLink>
