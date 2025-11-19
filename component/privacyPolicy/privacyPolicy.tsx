@@ -44,7 +44,7 @@ const PrivacyPolicy = () => {
                   </SectionTitle>
                   <Paragraph>
                     As part of the registration process on the Site, Kaypee
-                    food products may collect the following personally
+                    Food Products may collect the following personally
                     identifiable information about you: Name including first and
                     last name, alternate email address, mobile phone number and
                     contact details, Postal code, address, etc.) and information
@@ -116,7 +116,7 @@ const PrivacyPolicy = () => {
                     services you've requested and such information is necessary,
                     the information may be shared with Kaypee Food Products's
                     business associates and partners. In addition Kaypee
-                    food products may use this information for promotional
+                    Food Products may use this information for promotional
                     offers, to help investigate, prevent or take action
                     regarding unlawful and illegal activities, suspected fraud,
                     potential threat to the safety or security of any person,
