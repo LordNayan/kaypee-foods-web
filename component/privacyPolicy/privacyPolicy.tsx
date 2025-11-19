@@ -25,13 +25,13 @@ const PrivacyPolicy = () => {
                 <Col xs={12}>
                   <PrivacyTitle>Privacy Policy</PrivacyTitle>
                   <Paragraph>
-                    Kaypee food products respects your privacy. This Privacy
+                    Kaypee Food Products respects your privacy. This Privacy
                     Policy provides succinctly the manner your data is
-                    collected and used by Kaypee food products on the Site. As
+                    collected and used by Kaypee Food Products on the Site. As
                     a visitor to the Site/ Customer, you are advised to please
                     read the Privacy Policy carefully. By accessing the services
                     provided by the Site you agree to the collection and use of
-                    your data by Kaypee food products in the manner provided in this Privacy
+                    your data by Kaypee Food Products in the manner provided in this Privacy
                     Policy.
                   </Paragraph>
                 </Col>
@@ -59,11 +59,11 @@ const PrivacyPolicy = () => {
                 <Col xs={12}>
                   <SectionTitle>How do we Collect the Information?</SectionTitle>
                   <Paragraph>
-                    Kaypee food products will collect personally identifiable
+                    Kaypee Food Products will collect personally identifiable
                     information about you only as part of a voluntary
                     registration process, online survey or any combination
                     thereof. The Site may contain links to other Websites.
-                    Kaypee food products is not responsible for the privacy
+                    Kaypee Food Products is not responsible for the privacy
                     practices of such Web sites that it does not own, manage or
                     control. The Site and third-party vendors, including Google,
                     use first-party cookies (such as the Google Analytics
@@ -78,20 +78,20 @@ const PrivacyPolicy = () => {
                 <Col xs={12}>
                   <SectionTitle>How is information used?</SectionTitle>
                   <Paragraph>
-                    Kaypee food products will use your personal information to
+                    Kaypee Food Products will use your personal information to
                     provide personalized features to you on the Site and to
                     provide promotional offers to you through the Site and other
-                    channels. Kaypee food products will also provide this
+                    channels. Kaypee Food Products will also provide this
                     information to its business associates and partners to get
                     in touch with you when necessary to provide the services
-                    requested by you. Kaypee food products will use this
+                    requested by you. Kaypee Food Products will use this
                     information to preserve transaction history as governed by
-                    existing law or policy. Kaypee food products may also use
+                    existing law or policy. Kaypee Food Products may also use
                     contact information internally to direct its efforts for
                     product improvement, to contact you as a survey respondent,
                     to notify you if you win any contest; and send you
                     promotional materials from its contest sponsors or
-                    advertisers. Kaypee food products will also use this
+                    advertisers. Kaypee Food Products will also use this
                     information to serve you various promotional and advertising
                     materials via display advertisements through the Google Ad
                     network on third-party websites. You can opt out of Google
@@ -107,14 +107,14 @@ const PrivacyPolicy = () => {
                     With whom will your information be shared?
                   </SectionTitle>
                   <Paragraph>
-                    Kaypee food products will not use your financial information
+                    Kaypee Food Products will not use your financial information
                     for any purpose other than to complete a transaction with
-                    you. Kaypee food products does not rent, sell or share your
+                    you. Kaypee Food Products does not rent, sell or share your
                     personal information and will not disclose any of your
                     personally identifiable information to third parties. In
                     cases where it has your permission to provide products or
                     services you've requested and such information is necessary,
-                    the information may be shared with Kaypee food products's
+                    the information may be shared with Kaypee Food Products's
                     business associates and partners. In addition Kaypee
                     food products may use this information for promotional
                     offers, to help investigate, prevent or take action
