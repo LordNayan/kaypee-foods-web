@@ -10,7 +10,8 @@ interface Route {
 
 
 export async function generateMetadata({ params }: any): Promise<Metadata> {
-  const currentSlug = appRoutingConst.find((route: Route) => route.slug === params.slug);
+  const awaitedParams = await params;
+  const currentSlug = appRoutingConst.find((route: Route) => route.slug === awaitedParams.slug);
 
   if (currentSlug) {
     return {

@@ -2,10 +2,11 @@ import DynamicProduct from "@/component/dynamicProduct/dynamicProduct";
 import { appRoutingConst } from "@/constant/appRouting";
 import { notFound } from "next/navigation";
 
-export default function Page({ params }: any) {
-  const getSlug = params && params?.slug;
+export default async function Page({ params }: any) {
+  const awaitedParams = await params;
+  const getSlug = awaitedParams && awaitedParams?.slug;
   const isValidSlug = appRoutingConst?.some(
-    (route) => route?.slug === params?.slug
+    (route) => route?.slug === awaitedParams?.slug
   );
 
   if (!isValidSlug) {
